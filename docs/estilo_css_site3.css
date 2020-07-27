@@ -1,0 +1,145 @@
+
+body {
+    color: #000000; /*Dark grey*/
+    background-color: #f1b355; /*Light gay*/
+    font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head{
+    text-align: left;
+    color: #45dd17;
+}
+.eu{
+    text-align: center;
+    color: #0a0c58;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    text-decoration: none;
+    color: rgb(248, 248, 248);      
+    background-color: #0c0c0ccb;
+    font-weight: bold;
+    padding: 12px;
+    border: 2px solid #eaedf0;
+    border-radius: 10px;
+    min-width: 120px;
+}
+.cabecalho:hover{
+    color: #FFF;
+    background-color: #02df27; 
+}
+.cabecalho:visited:hover {
+  color: #FFF;
+  background-color: #0cc243; 
+}
+#corpo{
+    background-color: #ffffff;
+    width: 800px;
+    padding: 2px 2%;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 10px;
+}
+
+.nav{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+.chamada{
+    background-color: rgb(177, 104, 104);
+    padding: 10px 50px;
+    font-weight: bold;
+    margin-right: 400px;
+    margin-bottom: auto;
+    border-radius: 5px 60px 5px 20px;
+}
+.secao-curriculo {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.cara {
+    text-align: center;
+    background-color: #8863c4;
+    float: right;
+    width:200px;
+    margin: 0;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;
+    border-radius: 110px 110px 110px 110px;
+}
+.texto-curriculo{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    flex-basis: 224px;
+    flex-grow: 1;
+}
+
+
+    .curriculo {
+        text-align: center;
+        background-color: teal;
+       
+    }
+
+    .planos {
+        margin-top: 50px;
+        color:white;
+        text-align: center;
+        width: 65%;
+        background-color: rgb(12, 12, 11);
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 30px;
+        clear: both;
+    }
+
+    .intermedio {
+        text-align: center;
+        width: 100%;
+        background-color: #fdfdfd;
+        margin-top:50px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .curriculo2 {
+        text-align: center;
+        width: 100%;
+        background-color: teal;
+    }
+
+    .depoimento {
+        text-align: center;
+        width: 100%;
+        background-color: rgb(145, 160, 160);
+
+    }
+
+    .depoimento2 {
+        text-align: center;
+        display: inline-block;
+        flex-basis: 224px;
+        flex-grow: 1;
+        background-color: rgb(133, 143, 143);
+
+    }
+
+    .depoimentos-lista {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
