@@ -23,7 +23,7 @@ head{
     justify-content: center;       
     text-decoration: none;
     color: rgb(248, 248, 248);      
-    background-color: #13599bcb;
+    
     font-weight: bold;
     padding: 12px;
     border: 2px solid #eaedf0;
@@ -38,6 +38,39 @@ head{
   color: #FFF;
   background-color: #0cc243; 
 }
+.botao_um{
+    background-color: #13599bcb;
+}
+.botao_dois{
+    background-color: #cc792ccb;
+    border-radius: 60px;
+}
+.botao_tres{
+    background-color: #f31111;
+    border-radius: 60px;
+   
+}
+.botao_quatro{
+    background-color: skyblue;
+    border-radius: 60px;
+}
+.botao_cinco{
+    background-color: #13599bcb;    
+}
+.botao_seis{
+    background-color: #147bdb1e;
+    border-radius: 60px;
+
+}.botao_sete{
+    background-color: slategray;
+    border-radius: 60px;
+    color: black;
+}
+.pergunta{
+    background-color: rgba(1, 105, 105, 0.562);
+    border-radius: 60px; 
+}
+
 #corpo{
     background-color: #ffffff;
     width: 800px;
@@ -102,7 +135,7 @@ head{
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     border-radius: 30px;
     clear: both;
  }
@@ -121,11 +154,13 @@ p{
 .intermedio {
     background-color: #13599bcb;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top:50px;
-    margin-bottom: 50px;
+    
     border-radius: 30px;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 .depoimento {
@@ -135,7 +170,7 @@ p{
     margin-top:50px;
     margin-bottom: 50px;
     border-radius: 30px;
-    padding: 10px;
+    padding:0px 10px 0px 10px;
 }
 
 .depoimento2 {
@@ -159,10 +194,31 @@ p{
     width: 100%;
     background-color: teal;
     border-radius: 30px;
+    padding: 0px 10px 0px 10px;
  }
 
 .nomes{
     background-color: rgba(77, 85, 85, 0.753);
     border-radius: 30px;
     margin-bottom: auto;
+}
+.insta{
+    text-align: center;
+    background-color: #8863c4;
+    width:50px;
+    margin: 0;
+    border: 2px solid rgb(207, 99, 37);
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 110px 110px 110px 110px;
+}
+.facebook{
+    text-align: center;
+     background-color: #8863c4;
+    width:50px;
+     margin: 0;
+     border: 2px solid rgb(34, 36, 190);
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 110px 110px 110px 110px;
 }
