@@ -23,7 +23,7 @@ head{
     justify-content: center;       
     text-decoration: none;
     color: rgb(248, 248, 248);      
-    background-color: #0c0c0ccb;
+    background-color: #13599bcb;
     font-weight: bold;
     padding: 12px;
     border: 2px solid #eaedf0;
@@ -45,6 +45,7 @@ head{
     margin-left: auto;
     margin-right: auto;  
     border-radius: 10px;
+    
 }
 
 .nav{
@@ -55,12 +56,12 @@ head{
     margin: 20px 0;
 }
 .chamada{
-    background-color: rgb(177, 104, 104);
+    background-color: rgb(235, 205, 176);
     padding: 10px 50px;
     font-weight: bold;
     margin-right: 400px;
     margin-bottom: auto;
-    border-radius: 5px 60px 5px 20px;
+    border-radius: 5px 60px 5px 20px;   
 }
 .secao-curriculo {
     display: grid;
@@ -86,60 +87,82 @@ head{
     flex-grow: 1;
 }
 
-
-    .curriculo {
-        text-align: center;
-        background-color: teal;
+.curriculo {
+    text-align: center;
+    background-color: teal;
        
-    }
+}
 
-    .planos {
-        margin-top: 50px;
-        color:white;
-        text-align: center;
-        width: 65%;
-        background-color: rgb(12, 12, 11);
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 30px;
-        clear: both;
-    }
+.planos {
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+    width: 65%;
+    background-color: rgb(12, 12, 11);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    clear: both;
+ }
 
-    .intermedio {
-        text-align: center;
-        width: 100%;
-        background-color: #fdfdfd;
-        margin-top:50px;
-        margin-bottom: 50px;
-        padding: 10px;
-    }
+.planos_botao{
+    margin-top: 50px;
+    padding-top: 20px;
+}
 
-    .curriculo2 {
-        text-align: center;
-        width: 100%;
-        background-color: teal;
-    }
+p{
+    margin-bottom: 16px;
+    line-height: 30px;
 
-    .depoimento {
-        text-align: center;
-        width: 100%;
-        background-color: rgb(145, 160, 160);
+}
 
-    }
+.intermedio {
+    background-color: #13599bcb;
+    text-align: center;
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
 
-    .depoimento2 {
-        text-align: center;
-        display: inline-block;
-        flex-basis: 224px;
-        flex-grow: 1;
-        background-color: rgb(133, 143, 143);
+.depoimento {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(145, 160, 160);
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
 
-    }
+.depoimento2 {
+    text-align: center;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    background-color: rgb(133, 143, 143);
+    border-radius: 30px;
+    margin: 0 6px;
+}
 
-    .depoimentos-lista {
-        display: flex;
-        justify-content: space-between;
-    }
+.depoimentos-lista {
+    display: flex;
+    justify-content: space-between;
+}
 
+.curriculo2 {
+    text-align: center;
+    width: 100%;
+    background-color: teal;
+    border-radius: 30px;
+ }
 
-
+.nomes{
+    background-color: rgba(77, 85, 85, 0.753);
+    border-radius: 30px;
+    margin-bottom: auto;
+}
