@@ -212,7 +212,7 @@ p{
     justify-content: space-between;
 }
 
-.contato {
+.contato { /*contato profissional*/
     text-align: center;
     width: 100%;
     background-color: teal;
