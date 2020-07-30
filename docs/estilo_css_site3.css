@@ -1,7 +1,7 @@
 
-body {
-    color: #000000; /*Dark grey*/
-    background-color: #f1b355; /*Light gay*/
+body {/*corpo laranja de tudo*/
+    color: #000000; 
+    background-color: #f1b355; 
     font-size: 18px;
 }
 *{
@@ -17,7 +17,7 @@ head{
     text-align: center;
     color: #0a0c58;
 }
-.cabecalho{
+.cabecalho{/*cabeçalho de todas as paginas*/
     display: flex;
     align-items: center;
     justify-content: center;       
@@ -38,7 +38,7 @@ head{
   color: #FFF;
   background-color: #0cc243; 
 }
-.botao_um{
+.botao_um{ /*botoes do cabeçalho*/
     background-color: #13599bcb;
 }
 .botao_dois{
@@ -48,7 +48,6 @@ head{
 .botao_tres{
     background-color: #f31111;
     border-radius: 60px;
-   
 }
 .botao_quatro{
     background-color: skyblue;
@@ -60,25 +59,26 @@ head{
 .botao_seis{
     background-color: #147bdb1e;
     border-radius: 60px;
+    color: black;
 
 }.botao_sete{
     background-color: slategray;
     border-radius: 60px;
     color: black;
 }
-.pergunta{
+.pergunta{/*botao do forms*/
     background-color: rgba(1, 105, 105, 0.562);
     border-radius: 60px; 
 }
 
-#corpo{
+
+#corpo{/*corpo branco*/
     background-color: #ffffff;
     width: 800px;
     padding: 2px 2%;
     margin-left: auto;
     margin-right: auto;  
     border-radius: 10px;
-    
 }
 
 .nav{
@@ -88,7 +88,7 @@ head{
     gap: 30px;
     margin: 20px 0;
 }
-.chamada{
+.chamada{/*escrito=formação profissional*/
     background-color: rgb(235, 205, 176);
     padding: 10px 50px;
     font-weight: bold;
@@ -101,7 +101,7 @@ head{
     grid-auto-flow: column;
     gap: 20px;
 }
-.cara {
+.cara { /*foto*/
     text-align: center;
     background-color: #8863c4;
     float: right;
@@ -122,11 +122,10 @@ head{
 
 .curriculo {
     text-align: center;
-    background-color: teal;
-       
+    background-color: teal;  
 }
 
-.planos {
+.planos { /*planos de treinos*/
     margin-top: 50px;
     color:white;
     text-align: center;
@@ -140,7 +139,7 @@ head{
     clear: both;
  }
 
-.planos_botao{
+.planos_botao{ /*botao do saiba mais*/
     margin-top: 50px;
     padding-top: 20px;
 }
@@ -148,19 +147,43 @@ head{
 p{
     margin-bottom: 16px;
     line-height: 30px;
-
 }
 
-.intermedio {
+.artigos { /*parte dos artigos*/
     background-color: #13599bcb;
     text-align: center;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top:50px;
-    
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
+}
+
+.intermedio2 { /** testando na página dos artigos**/
+    background-color: #13599bcb;
+    text-align: center;
+    width: 35%;
+    margin-top:10px;
+    justify-items: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px 0px 10px;
+    display: inline-block;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+.segundapagina{ /** testando na página dos artigos**/
+    background-color: #f1b355;
+    width: 800px;
+    padding: 2px 2%;
+    margin-left: auto;
+    margin-right: auto;  
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .depoimento {
@@ -189,9 +212,20 @@ p{
     justify-content: space-between;
 }
 
-.curriculo2 {
+.contato {
     text-align: center;
     width: 100%;
+    background-color: teal;
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+ }
+
+ .curriculointerno {
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     background-color: teal;
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
