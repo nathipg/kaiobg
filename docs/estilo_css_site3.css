@@ -258,3 +258,14 @@ p{
     margin-bottom: 10px;
     border-radius: 110px 110px 110px 110px;
 }
+
+.experiencia { /*parte das informações profissionais*/
+    background-color: #d1d8b3cb;
+    text-align: left;
+    width: 100%;
+    margin-right: auto;
+    margin-top:20px;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+}
