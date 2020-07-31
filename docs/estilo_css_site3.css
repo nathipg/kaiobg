@@ -1,7 +1,7 @@
 
 body {/*corpo laranja de tudo*/
     color: #000000; 
-    background-color: #f1b355; 
+    background-color: #f37121; 
     font-size: 18px;
 }
 *{
@@ -14,67 +14,111 @@ head{
     color: #45dd17;
 }
 .eu{
-    text-align: center;
-    color: #0a0c58;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px;
 }
+.tatoo3 { /*foto no cabeçalho*/
+    text-align: center;
+    background-color: black;
+    float: left;
+    width:30px;
+    margin-left: 300px;
+    margin-right: 180px;
+    padding: 0;
+    margin-bottom: auto;
+    border-radius: 0px 10px 10px 10px;
+}
+
+
 .cabecalho{/*cabeçalho de todas as paginas*/
     display: flex;
     align-items: center;
     justify-content: center;       
     text-decoration: none;
-    color: rgb(248, 248, 248);      
-    
+    color: black;      
     font-weight: bold;
-    padding: 12px;
-    border: 2px solid #eaedf0;
+    padding: 5px;
+    border: 1px solid #f37121;
     border-radius: 10px;
-    min-width: 120px;
+    min-width: 80px;
 }
 .cabecalho:hover{
-    color: #FFF;
-    background-color: #02df27; 
+    color: white;
+    background-color: #2fce3c00; 
 }
 .cabecalho:visited:hover {
-  color: #FFF;
-  background-color: #0cc243; 
+  color: white;
+  background-color: #83d38083; 
 }
 .botao_um{ /*botoes do cabeçalho*/
-    background-color: #13599bcb;
+    background-color: #f37121;
+    font-size:23px;
 }
 .botao_dois{
-    background-color: #cc792ccb;
-    border-radius: 60px;
+    background-color: #c70039;
+    border-radius: 0px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
 }
 .botao_tres{
-    background-color: #f31111;
-    border-radius: 60px;
+    background-color: #c70039;
+    border-radius: 0px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 15px;
 }
 .botao_quatro{
     background-color: skyblue;
     border-radius: 60px;
 }
 .botao_cinco{
-    background-color: #13599bcb;    
+    background-color: #d1d8b3cb;   
+    border-radius: 0px;
+    max-width: 100%;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border: 1px solid #000000;
+    color:black; 
 }
 .botao_seis{
-    background-color: #147bdb1e;
-    border-radius: 60px;
-    color: black;
+    background-color: #c70039;
+    border-radius: 0px;
+    max-width: 100%;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #000000;
 
 }.botao_sete{
     background-color: slategray;
-    border-radius: 60px;
-    color: black;
+    border-radius: 0px;
+    max-width: 100%;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #000000;
 }
 .pergunta{/*botao do forms*/
-    background-color: rgba(1, 105, 105, 0.562);
-    border-radius: 60px; 
+    background-color: #111d5e;
+    border-radius: 0px;
+    max-width: 300px;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #000000;
+    color: white;
+    display: inline-block;
 }
 
-
 #corpo{/*corpo branco*/
-    background-color: #ffffff;
-    width: 800px;
+    background-color: #f37121;
+    width: 1000px;
     padding: 2px 2%;
     margin-left: auto;
     margin-right: auto;  
@@ -85,28 +129,35 @@ head{
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
-    gap: 30px;
-    margin: 20px 0;
+    gap: 10px;
+    margin: 10px 0;
+    background-color: #f37121;
+    width: 800px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .chamada{/*escrito=formação profissional*/
     background-color: rgb(235, 205, 176);
     padding: 10px 50px;
     font-weight: bold;
     margin-right: 400px;
-    margin-bottom: auto;
-    border-radius: 5px 60px 5px 20px;   
+    margin-bottom: 0;
+    margin-top: 20px;
+    border-radius: 0px 60px 0px 0px;   
 }
 .secao-curriculo {
     display: grid;
     grid-auto-flow: column;
     gap: 20px;
+    
 }
 .cara { /*foto*/
     text-align: center;
-    background-color: #8863c4;
+    background-color: #e2954d;
     float: right;
     width:200px;
-    margin: 0;
+    margin: 0px 0px 0px 15px;
     border: 1px solid rgb(19, 17, 17);
     padding: 0;
     margin-bottom: auto;
@@ -114,10 +165,55 @@ head{
 }
 .texto-curriculo{
     text-align: left;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
     flex-basis: 224px;
     flex-grow: 1;
+    background-color: #e2954d;
+}
+.texto-curriculo2{/** texto informação profissional**/
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 20px 0px 20px 20px;
+    background-color: #e2954d;
+    line-height: 1.5;
+    font-size:20px;
+}
+.tatoo2 { /*foto tatoo*/
+    text-align: center;
+    background-color: black;
+    float: right;
+    width:150px;
+    margin: 0px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: auto;
+    border-radius: 0px;
+}
+
+.textoinicial{/**antes do curriculo**/
+    text-align: justify;
+    line-height: 1.5;
+    font-size:25px;
+    margin-bottom: 10px;
+    color: black;
+    margin-top: 10px;
+    flex-basis: 224px;
+    flex-grow: 1;
+    width: 820px;
+    background-color: #d1d8b3cb;
+    border-radius: 0 0px 0px 0px;
+    padding: 20px 90px 20px 20px;
+    height:305px;
+    color:rgb(0, 0, 0);
+    background-color:#d1d8b3e8;
+    background-image: linear-gradient(to left, rgb(0, 0, 0) 0%, #d1d8b3 30%, #d1d8b3cb 100%, #d1d8b3cb);
+    
+
+    
 }
 
 .curriculo {
@@ -126,16 +222,18 @@ head{
 }
 
 .planos { /*planos de treinos*/
-    margin-top: 50px;
-    color:white;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size:20px;
+    color:black;
     text-align: center;
-    width: 65%;
-    background-color: rgb(12, 12, 11);
+    width: 100%;
+    background-color: #d1d8b3cb;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 0px 10px 0px 10px;
-    border-radius: 30px;
+    border-radius: 0px;
     clear: both;
  }
 
@@ -150,18 +248,19 @@ p{
 }
 
 .artigos { /*parte dos artigos*/
-    background-color: #13599bcb;
+    line-height: 1.5;
+    font-size:20px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top:50px;
+    margin-top:30px;
     border-radius: 30px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 100px 0px 100px;
 }
 
 .intermedio2 { /** testando na página dos artigos**/
-    background-color: #13599bcb;
+    background-color: #d1d8b3cb;
     text-align: center;
     width: 35%;
     margin-top:10px;
@@ -176,7 +275,7 @@ p{
     margin: 0 16px;
 }
 .segundapagina{ /** testando na página dos artigos**/
-    background-color: #f1b355;
+    background-color: #f37121;
     width: 70%;
     height: auto;
     padding: 2px 2%;
@@ -191,22 +290,22 @@ p{
 .depoimento {
     text-align: center;
     width: 100%;
-    background-color: rgb(145, 160, 160);
+    background-color: #f37121;
     margin-top:50px;
     margin-bottom: 50px;
-    border-radius: 30px;
     padding:0px 10px 0px 10px;
 }
 
 .depoimento2 {/**depoimento escrito**/
     text-align: center;
+    
     display: inline-block;
     flex-basis: 224px;
     flex-grow: 1;
     padding: 12px;
     background-color: rgb(133, 143, 143);
     border-radius: 30px;
-    margin: 0 16px;
+    margin: 0 6px;
 }
 
 .depoimentos-lista {
@@ -217,9 +316,11 @@ p{
 .contato { /*contato profissional*/
     text-align: center;
     width: 100%;
-    background-color: teal;
+    line-height: 1.5;
+    font-size:25px;
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
+    margin-top: 20px;
  }
 
  .curriculointerno {
@@ -228,7 +329,6 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    background-color: teal;
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
  }
@@ -242,21 +342,45 @@ p{
     text-align: center;
     background-color: #8863c4;
     width:50px;
-    margin: 0;
-    border: 2px solid rgb(207, 99, 37);
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    margin: auto;
+    border: 1px solid rgb(207, 99, 37);
     padding: 0;
-    margin-bottom: 10px;
+    margin-right: 30px;
     border-radius: 110px 110px 110px 110px;
+  
 }
 .facebook{
     text-align: center;
-     background-color: #8863c4;
+    background-color: #8863c4;
     width:50px;
-     margin: 0;
-     border: 2px solid rgb(34, 36, 190);
+    margin: 0;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid rgb(34, 36, 190);
     padding: 0;
-    margin-bottom: 10px;
     border-radius: 110px 110px 110px 110px;
+    margin-right: 30px;
+}
+
+.email{
+    text-align: center;
+    background-color: #8863c4;
+    width:55px;
+    margin: 0;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0;
+    border-radius: 110px 110px 110px 110px;
+    margin-right: 30px;
 }
 
 .experiencia { /*parte das informações profissionais*/
@@ -264,8 +388,18 @@ p{
     text-align: left;
     width: 100%;
     margin-right: auto;
-    margin-top:20px;
-    border-radius: 30px;
+    margin-top:0px;
+ 
     padding: 10px 10px 10px 10px;
     line-height: 30px;
+}
+.rodape{
+    width: 150%;
+}
+.botaopag{
+    color: #c70039; text-shadow: white 0.5em 0.1em 0.2em;
+    
+}
+.teste{
+    color: black; text-shadow: white 0.3em 0.1em 0.2em;
 }
