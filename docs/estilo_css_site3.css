@@ -1,7 +1,7 @@
 
 body {/*corpo laranja de tudo*/
     color: #000000; 
-    background-color: #f37121; 
+    background-color: #20201f; 
     font-size: 18px;
 }
 *{
@@ -9,9 +9,14 @@ body {/*corpo laranja de tudo*/
     padding: 0;
     box-sizing: border-box;
 }
+p{
+    margin-bottom: 16px;
+    line-height: 30px;
+}
 head{
     text-align: left;
     color: #45dd17;
+   
 }
 .eu{
     text-align: left;
@@ -32,9 +37,9 @@ head{
     border-radius: 0px 10px 10px 10px;
 }
 
-
 .cabecalho{/*cabeçalho de todas as paginas*/
     display: flex;
+    
     align-items: center;
     justify-content: center;       
     text-decoration: none;
@@ -53,6 +58,8 @@ head{
   color: white;
   background-color: #83d38083; 
 }
+/**botões**/
+
 .botao_um{ /*botoes do cabeçalho*/
     background-color: #f37121;
     font-size:23px;
@@ -60,18 +67,23 @@ head{
 .botao_dois{
     background-color: slategray;
     border-radius: 0px;
-    max-width: 100%;
+    max-width: 60%;
     margin: 20px;
-    padding: 10px;
-    font-size:20px;
+    margin-left: 20%;
+    padding: 15px 12px 15px 12px;
+    font-size:20px;  
+    
+    
 }
 .botao_tres{
     background-color: slategray;
     border-radius: 0px;
-    max-width: 100%;
+    max-width: 60%;
     margin: 20px;
-    padding: 12px;
-    font-size:20px;
+    
+    padding: 15px 12px 15px 12px;
+    font-size:20px;  
+    
 }
 .botao_quatro{
     background-color: skyblue;
@@ -80,14 +92,14 @@ head{
 .botao_cinco{
     background-color: #d1d8b3e8;   
     border-radius: 0px;
-    max-width: 100%;
-    margin: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 10px;
+    max-width: 50%;
+    margin: 2px;
+    margin-left: 10px;
+    padding: 5px;
     border: 1px solid #000000;
     color:black; 
     font-size:20px;
+    
 }
 .botao_seis{
     background-color: slategray;
@@ -102,8 +114,9 @@ head{
 }.botao_sete{
     background-color: slategray;
     border-radius: 0px;
-    max-width: 100%;
+    max-width: 60%;
     margin: 20px;
+    margin-left: 20%;
     margin-top: 5px;
     padding: 15px;
     border: 1px solid #000000;
@@ -121,8 +134,8 @@ head{
     display: inline-block;
 }
 
-#corpo{/*corpo branco*/
-    background-color: #f37121;
+#corpo{/*corpo de dentro*/
+    background-color: #20201f;
     width: 1000px;
     padding: 2px 2%;
     margin-left: auto;
@@ -135,72 +148,106 @@ head{
     grid-auto-flow: column;
     justify-content: center;
     gap: 10px;
-    margin: 10px 0;
+    margin: 5px 0;
     background-color: #f37121;
-    width: 800px;
+    width: 1000px;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/**layout superior**/
 .chamada{/*escrito=formação profissional*/
-    background-color: #e2954d;
+    background-color: #f37121;
     padding: 10px 50px;
     font-weight: bold;
-    margin-right: 400px;
-    margin-bottom: 0;
-    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 450px;
+    margin-top: 10px;
+    border-radius: 0px 60px 0px 0px;  
+    line-height: 1.5;
+    font-size:30px; 
+}
+.chamada2{/*escrito=planos*/
+    background-color: #d1d8b3e8;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin-right: 500px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    border-radius: 60px 0px 0px 0px;  
+    line-height: 1.5;
+    font-size:30px; 
+}
+
+.artigo_escrita{/** texto artigo**/
+    background-color: #f37121;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 450px;
+    margin-top: 10px;
     border-radius: 0px 60px 0px 0px;  
     line-height: 1.5;
     font-size:30px; 
 }
 
-.chamada2{/*escrito=planos*/
-    background-color: #d1d8b3e8;
-    padding: 10px 50px;
-    font-weight: bold;
-    margin-right: 400px;
-    margin-bottom: 0;
-    margin-top: 20px;
-    border-radius: 0px 60px 0px 0px;  
-    line-height: 1.5;
-    font-size:30px; 
-}
-.secao-curriculo {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 20px;
-    
-}
+/**imagens**/
+.tatooplanos { /*foto tatoo galeria*/
+    text-align: center;
+    background-color: black;
+    float: right;
+    width:210px;
+    margin: 20px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 2px solid rgb(19, 17, 17);
+ }
 .cara { /*foto*/
     text-align: center;
-    background-color: #e2954d;
-    float: right;
-    width:200px;
-    margin: 0px 0px 0px 30px;
+    background-color: #f37121;
+    float: left;
+    width:250px;
+    margin: 10px 30px 30px 30px;
     border: 1px solid rgb(19, 17, 17);
     padding: 0;
     margin-bottom: auto;
     border-radius: 110px 110px 110px 110px;
 }
-.texto-curriculo{
-    text-align: left;
-    margin-bottom: 0px;
+.foto_curriculo{
+    text-align: center;
+    background-color: black;
+    float: left;
+    width:445px;
+    margin: 0px;
+    padding: 0;
     margin-top: 0px;
-    flex-basis: 224px;
-    flex-grow: 1;
-    line-height: 1.5;
-    font-size:30px;
-   
+    margin-bottom: auto;
+    border-radius: 0px;
 }
-.texto-curriculo2{/** texto informação profissional**/
-    text-align: justify;
-    margin-bottom: 0px;
+.foto_treino{
+    text-align: center;
+    background-color: black;
+    float: right;
+    width:303px;
+    margin: 0px;
+    padding: 0;
     margin-top: 0px;
-    flex-basis: 224px;
-    flex-grow: 1;
-    padding: 20px 0px 0px 20px;
-    background-color: #e2954d;
-   
+    margin-bottom: auto;
+    border-radius: 0px;
+}
+.foto_galeria{
+    text-align: center;
+    background-color: black;
+    float: right;
+    width:300px;
+    margin: 0px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: auto;
+    border-radius: 0px;
 }
 .tatoo2 { /*foto tatoo*/
     text-align: center;
@@ -218,55 +265,58 @@ head{
     text-align: justify;
     line-height: 1.5;
     font-size:25px;
-    margin-bottom: 10px;
-    color: black;
+    color: white;
+    margin-bottom: 0px;
     margin-top: 10px;
-    flex-basis: 224px;
-    flex-grow: 1;
     width: 820px;
-    background-color: #d1d8b3cb;
+    background-color: #20201f;
     border-radius: 0 0px 0px 0px;
     padding: 20px 90px 20px 20px;
     height:305px;
-    color:rgb(0, 0, 0);
-    background-color:#d1d8b3e8;
-    background-image: linear-gradient(to left, rgb(0, 0, 0) 5%, #d1d8b3 30%, #d1d8b3cb 100%, #d1d8b3cb);
     
-
-    
+   
+    background-image: linear-gradient(to left, rgb(0, 0, 0) 10%, #20201f 40%, #000000 100%, #000000);  
 }
 
-.curriculo {
-    text-align: center;
-    background-color: teal;  
+.texto-curriculo{  
+    text-align: left;
+    line-height: 1.5;
+    font-size:30px;
+    color: black;
+    margin:auto;
+    flex-basis: 224px;
+    flex-grow: 1;
+}
+.palavra{
+    color:white;
 }
 
-.planos { /*planos de treinos*/
-    margin-top: 30px;
+.texto-curriculo2{/** texto informação profissional**/
+    align-items: center;
     line-height: 1.5;
     font-size:20px;
-    color:black;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 10px 20px 0px 0px;
+    background-color: #f37121;
+    height: 305px;
+}
+.planos { /*planos de treinos*/
+    line-height: 1.5;
+    font-size:20px;
+    color:white;
     text-align: center;
     width: 100%;
-    background-color: #d1d8b3e8;
+    background-color: #111d5e;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
-    padding: 0px 10px 0px 10px;
+    padding: 10px 20px 0px 0px;
     border-radius: 0px;
-    clear: both;
-    
+    height:305px;
+    min-height: min-content;
  }
-
-.planos_botao{ /*botao do saiba mais*/
-    margin-top: 50px;
-    padding-top: 20px;
-}
-
-p{
-    margin-bottom: 16px;
-    line-height: 30px;
-}
 
 .artigos { /*parte dos artigos*/
     line-height: 1.5;
@@ -275,7 +325,7 @@ p{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top:30px;
+    margin-top:10px;
     border-radius: 30px;
     padding: 0px 100px 0px 100px;
 }
@@ -295,8 +345,22 @@ p{
     flex-grow: 1;
     margin: 0 16px;
 }
+.materia_individual { /** testando na página da materia em si**/
+    background-color: #d1d8b3e8;
+    text-align: center;
+    width: 900px;
+    margin-top:20px;
+    justify-items: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    flex-basis: 200px;
+    flex-grow: 1;
+  
+}
 .segundapagina{ /** testando na página dos artigos**/
-    background-color: #f37121;
+    background-color: #20201f;
     width: 70%;
     height: auto;
     padding: 2px 2%;
@@ -304,17 +368,19 @@ p{
     margin-right: auto;  
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    
+    margin-bottom: 30px;   
 }
 
 .depoimento {
     text-align: center;
     width: 100%;
-    background-color: #f37121;
-    margin-top:50px;
-    margin-bottom: 50px;
+    margin-top:10px;
+    margin-bottom: 30px;
     padding:0px 10px 0px 10px;
+    
+    line-height: 1.5;
+    font-size:20px;
+    text-align: center;
 }
 
 .depoimento2 {/**depoimento escrito**/
@@ -326,13 +392,35 @@ p{
     padding: 12px;
     background-color: rgb(133, 143, 143);
     border-radius: 30px;
-    margin: 0 6px;
+    margin: 10px 6px;
 }
 
 .depoimentos-lista {
     display: flex;
     justify-content: space-between;
 }
+
+.galeria_dentro{
+    text-align: center;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding:0px 10px 0px 10px;
+    line-height: 1.5;
+    font-size:20px;
+    text-align: center;
+}
+.galeria2 {/**foto escrito**/
+    text-align: center;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    background-color: #111d5e;
+    border-radius: 30px;
+    margin: 10px 6px;
+}
+
 
 .contato { /*contato profissional*/
     text-align: center;
@@ -342,6 +430,7 @@ p{
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
     margin-top: 20px;
+    color: white;
  }
 
  .curriculointerno {
