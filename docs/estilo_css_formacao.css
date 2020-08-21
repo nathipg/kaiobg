@@ -1,0 +1,141 @@
+.materias {
+    height: 100%;
+    background-color: #ffe1ce;
+    border-radius: 4px ;
+
+}
+
+.depoimento_conteudo {
+    height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;   
+    border-radius: 4px 4px 4px 0px;
+}
+p{
+    font-size: 20px;
+}
+
+.depoimento {
+    text-align: center;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding:0px 10px 0px 10px;
+    
+    line-height: 1.5;
+    font-size:20px;
+    text-align: center;
+}
+.leu { /*foto formacao*/
+    text-align: center;
+    float: right;
+    width:100px;
+    margin: 10px 30px 30px 30px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+.lcn { /*foto formacao*/
+    text-align: center;
+    float: right;
+    width:100px;
+    margin: 30px 30px 30px 30px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+.porto { /*foto formacao*/
+    text-align: center;
+    float: left;
+    width:150px;
+    margin: 10px 30px 30px 30px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+.segundapagina {/**depoimento escrito**/
+    text-align: center;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    background-color: #83aaa8;
+    border-radius: 30px;
+    margin: 10px 6px;
+    line-height: 1.5;
+   
+}
+.intermedio2 { /** testando na página dos artigos**/
+    text-align: center;
+    width: 35%;
+    justify-items: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px 0px 10px;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    border-radius: 30px;
+    margin: 10px 6px;
+    line-height: 1.5;
+}
+p{
+    font-size:18px;
+}
+.materias-lista {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.espaco{
+    line-height: 1.8;
+    text-align: justify;
+}
+.nomes{
+    background-color: #527a78;
+    border-radius: 30px;
+    margin-top: 10px;
+    
+}
+.continue_lendo{/*botao do forms*/
+    max-width: 300px;
+    margin: 40px 40px 0px 40px;
+    color:black;
+    padding: 10px 20px 20px 20px;
+    border: 2px solid #000000;
+    display: inline-block;
+    background-color: #d86f2d;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.continue_lendo:hover {
+    background-color: #ff904a;
+    border-radius: 8px;
+}
+.foto_galeria{
+    animation: 4s infinite alternate circle;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    object-position: -12px -2px;
+    float: left;
+    
+}
+@keyframes circle {
+    from {
+        -webkit-clip-path: circle(0%);
+        clip-path: circle(0%);
+    }
+    to {
+        -webkit-clip-path: circle(120px);
+        clip-path: circle(120px);
+    }
+}
+    

@@ -1,0 +1,75 @@
+.depoimentos {
+    height: 100%;
+    background-color: #ffe1ce;
+    border-radius: 4px 4px;
+}
+
+.depoimento_conteudo {
+    height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;   
+    border-radius: 4px 4px 0px 0px;
+    
+}
+.individual{
+    height: 320px;
+}
+.depoimento {
+    text-align: center;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding:0px 10px 0px 10px;
+    border-radius: 4px;
+    line-height: 1.5;
+    font-size:20px;
+    text-align: center;
+}
+
+.depoimento2 {/**depoimento escrito**/
+    text-align: center;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    background-color: #83aaa8;
+    border-radius: 8px;
+    margin: 10px 6px;
+    line-height: 1.5;
+}
+
+.depoimentos-lista {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 4px;
+    
+}
+.nomes{
+    background-color: #266a78;
+    border-radius: 8px;
+    margin-top: 10px; 
+    color: white;
+    
+}
+.plano footer {
+    height: 48px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.plano footer {
+    text-transform: uppercase;
+    font-size: 16px;
+    justify-content: center;
+    background-color: #266a78;
+    color: white;
+    cursor: pointer;
+}
+
+
+    
