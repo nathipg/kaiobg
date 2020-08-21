@@ -207,6 +207,7 @@
     float: left;
     margin-right: 24px;
     box-shadow: 0 8px 6px -6px black;
+    position: relative;
    
 }
 .intro_text {
@@ -223,19 +224,4 @@
     border-radius: 4px;
     overflow: hidden;
     background-color:#FF4500;
-}
-.pergunta1{/*botao do forms*/
-    max-width: 300px;
-    margin: 0px;
-    
-    color:black;
-    padding: 15px 30px 15px 25px;
-    border: 2px solid #000000;
-    display: inline-block;
-    background-color: #d86f2d;
-    border-radius: 8px;
-    height: 60px;
-    font-size: 24px;
-    font-weight: 400;
-    
 }
