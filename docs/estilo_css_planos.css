@@ -221,3 +221,17 @@
     overflow: hidden;
     background-color:#FF4500;
 }
+.pergunta1{/*botao do forms*/
+    max-width: 300px;
+    margin: 0px;
+    color:black;
+    padding: 15px 30px 15px 25px;
+    border: 2px solid #000000;
+    display: inline-block;
+    background-color: #d86f2d;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 1000;
+}
