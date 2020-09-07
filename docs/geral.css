@@ -38,6 +38,7 @@ img{
     position: sticky;
     top: 0;
     z-index: 100;
+    overflow-x: auto;
 }
 
 .cabecalho_menu {
@@ -46,13 +47,15 @@ img{
     align-items: center;
     justify-content: space-between;
     margin: auto;       
+    
 }
 
  .cabecalho_link {
     font-size: 20px;
     padding: 12px;
     font-weight: bold;
-    color: black;      
+    color: black;   
+    flex-shrink: 0;   
 }
 
 .cabecalho_link:hover {
@@ -161,12 +164,18 @@ img{
 
 /* Classes genéricas */
 .bloco {
-    height: 380px;
+    
     border-radius: 4px;
     overflow: hidden;
     background-color: #ffe1ce;
     border: 1px solid #ffad7a38;
     position: relative;
+}
+
+@media (min-width: 600px) {
+    .bloco {
+        height: 380px;
+    }
 }
 
 .bloco_cabecalho_degrade {
