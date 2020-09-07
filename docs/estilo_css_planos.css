@@ -42,7 +42,7 @@
     border-radius: 4px 4px 0px 0px;
 }
 .planos {
-    height: 480px;
+    height: unset;
     background-color: #ffe1ce;
     border-radius: 4px;
 }
@@ -63,14 +63,20 @@
     justify-content: space-between;
     width: 300px;
 }
-.bloco1 {
+.blocop {
     height: 100%;
     width: 100%;
     border-radius: 0px;
     overflow: hidden;
     background-color: #ffe1ce;
     border-radius: 4px 0px 4px 4px;
+    position: relative;
+}
 
+.blocop .pergunta {
+    right: 8px;
+    bottom: 8px;
+    position: absolute;
 }
 
 .bloco_cabecalho_degrade {
