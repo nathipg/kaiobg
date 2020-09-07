@@ -124,7 +124,7 @@ img{
     max-width: 300px;
     margin: 0px;
     color:black;
-    padding: 10px 30px 15px 25px;
+    padding: 10px 30px;
     border: 2px solid #000000;
     display: inline-block;
     background-color: #d86f2d;
@@ -166,6 +166,7 @@ img{
     border-radius: 4px;
     overflow: hidden;
     background-color: #ffe1ce;
+    border: 1px solid #ffae7a
 }
 
 .bloco_cabecalho_degrade {
