@@ -114,7 +114,15 @@ p{
     display: flex;
     height: 200px;
     width: 300px;
-    object-position: -12px -2px;
+    object-position: -12px -145px;
+    float: left;  
+}
+.foto_galeria2{
+    animation: 4s infinite alternate circle;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    object-position: -12px -31px;
     float: left;  
 }
 @keyframes circle {
@@ -132,5 +140,15 @@ p{
     height: 300px;
     width: 400px;
     margin:20px;
+    margin-bottom: 0px;
+    margin-top:0px;
     float: left;  
+}
+.foto2{
+    height: 300px;
+    width: 400px;
+    margin:20px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    float: right;  
 }

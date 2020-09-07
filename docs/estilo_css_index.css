@@ -192,4 +192,21 @@
     padding: 0px 700px 0px 20px;
 }
 
+.continue_lendo{/*botao do forms*/
+    max-width: 300px;
+    margin: 20px 40px 40px 40px;
+    color:black;
+    padding: 10px 20px 20px 20px;
+    border: 2px solid #000000;
+    display: inline-block;
+    background-color: #d86f2d;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.continue_lendo:hover {
+    background-color: #ff904a;
+    border-radius: 8px;
+}
 /* Contato */
