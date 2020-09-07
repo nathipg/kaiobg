@@ -210,3 +210,21 @@
     border-radius: 8px;
 }
 /* Contato */
+.perguntab{/*botao do forms planos*/
+    max-width: 300px;
+    margin: 0px;
+    margin-left: 117px;
+    color:black;
+    padding: 10px 30px 15px 25px;
+    border: 2px solid #000000;
+    display: inline-block;
+    background-color: #d86f2d;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.perguntab:hover {
+    background-color: #ff904a;
+    border-radius: 8px;
+}
