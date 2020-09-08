@@ -122,6 +122,7 @@
 
 .galeria_lista {
   padding: 6px 6px 6px 6px;
+  
   /* height: calc(100% - 265px); */
   /* display: grid;
     grid-auto-flow: column; */
@@ -133,7 +134,7 @@
 .galeria {
   width: 300px;
   background-color: #83aaa8;
-  max-height: 235px;
+  max-height: 225px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
