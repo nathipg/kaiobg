@@ -32,7 +32,6 @@
     background-color: #83aaa8;
     height: 100%;
     display: flex;
-    align-content: right;
     flex-direction: column;
     overflow: hidden;
     border-radius: 8px;
