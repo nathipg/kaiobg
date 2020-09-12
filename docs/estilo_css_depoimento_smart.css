@@ -37,16 +37,11 @@
 
 .depoimento2 {/**depoimento escrito**/
     text-align: center;
-   
-    flex-basis: 224px;
-    flex-grow: 1;
     padding: 12px;
     background-color: #83aaa8;
     border-radius: 8px;
     margin: 10px 6px;
     line-height: 1.5;
-    min-width: 300px;
-    max-width: 640px;
 }
 
 .depoimentos-lista {
