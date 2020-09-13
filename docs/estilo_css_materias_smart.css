@@ -119,20 +119,20 @@ p{
 .foto_galeria{
     height: 300px;
     width: 300px;
-    margin:20px;
+    margin:0px;
     margin-bottom: 20px;
     margin-top:0px;
-    float: left;  
+      
     
         
 }
 .foto_galeria2{
     height: 300px;
     width: 300px;
-    margin:20px;
+    margin:0px;
     margin-bottom: 20px;
     margin-top:0px;
-    float: left;  
+    
     
 }
 @keyframes circle {
@@ -149,16 +149,16 @@ p{
 .foto{
     height: 300px;
     width: 300px;
-    margin:20px;
+    margin:0px;
     margin-bottom: 0px;
     margin-top:0px;
-    float: left;  
+     
 }
 .foto2{
     height: 300px;
     width: 300px;
-    margin:20px;
+    margin:0px;
     margin-bottom: 0px;
     margin-top:0px;
-    float: right;  
+    
 }
