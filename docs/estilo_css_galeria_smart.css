@@ -23,7 +23,7 @@
 }
 
 .galeria_lista {
-    padding: 6px 6px 6px 30pxpx;
+    padding: 6px 6px 6px 30;
     grid-auto-flow:column;
     justify-content: space-between ;
 }
