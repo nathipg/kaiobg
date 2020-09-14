@@ -192,28 +192,28 @@
 }
 .intro_img1 {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     float: left;   
 }
 .intro_img2 {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     float: left;
 }
 
 .intro_img4 {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     float: left;
     
 }
 .intro_img3 {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     float: left;
    
 }
@@ -227,7 +227,7 @@
 }
 
 .blocop {
-    height: 920px;
+    height: 800px;
     border-radius: 4px;
     overflow: hidden;
     background-color:#c73c0a;
