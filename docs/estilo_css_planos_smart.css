@@ -69,15 +69,7 @@
     justify-content: space-between;
     width: 300px;
 }
-.blocop {
-    height: 100%;
-    width: 100%;
-    border-radius: 0px;
-    overflow: hidden;
-    background-color: #ffe1ce;
-    border-radius: 4px 0px 4px 4px;
-    position: relative;
-}
+
 
 .blocop .pergunta {
     right: 8px;
@@ -229,7 +221,7 @@
 }
 
 .blocop {
-    height:800px;
+    height:900px;
     border-radius: 4px;
     overflow: hidden;
     background-color:#c73c0a;
