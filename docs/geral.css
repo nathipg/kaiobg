@@ -120,12 +120,13 @@ img{
     font-size: 18px;
     font-weight: 400;
     margin-top: 10px;
-    
+    margin-bottom: 0px;
     padding: 0 12px;    
 }
 .pergunta{/*botao do forms*/
     max-width: 300px;
     margin: 0px;
+    margin-top: 15px;
     color:black;
     padding: 10px 30px;
     border: 2px solid #000000;

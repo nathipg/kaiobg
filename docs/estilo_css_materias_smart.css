@@ -81,7 +81,7 @@ p{
     max-width: 640px;
 }
 .paragrafo_dentro{/**entrte os paragrafos**/
-    margin:0px 20px 20px 20px;
+    margin:10px 5px 10px 5px;
 }
 
 .materias-lista {
@@ -150,6 +150,7 @@ p{
     margin:0px;
     margin-bottom: 0px;
     margin-top:0px;
+    text-transform: uppercase;
      
 }
 .foto2{
@@ -158,5 +159,6 @@ p{
     margin:0px;
     margin-bottom: 0px;
     margin-top:0px;
+    text-transform: uppercase;
     
 }
