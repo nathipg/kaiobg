@@ -207,8 +207,8 @@
 
 .intro_img4 {
     object-fit: cover;
-    min-width: 300px;
-    max-width: 640px;
+    width: 100vw;
+    height: 100vw;
     float: left;
     
 }
