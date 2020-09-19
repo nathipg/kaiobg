@@ -173,7 +173,7 @@ img{
     position: relative;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
     .bloco {
         height: 380px;
     }
