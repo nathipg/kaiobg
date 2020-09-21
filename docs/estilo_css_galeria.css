@@ -19,10 +19,7 @@
   align-items: center;
   padding: 0 12px;
 }
-@media (min-width: 1024px) {
-  .galeria_lista {
-  }
-}
+
 
 .galeria_lista {
   padding: 6px;

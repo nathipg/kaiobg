@@ -6,6 +6,10 @@
     max-width: 640px;
 }
 
+.midia{
+    height: 290px;
+    width: 370px;
+}
 .depoimento_conteudo {
     height: 52px;
     font-size: 20px;
@@ -101,7 +105,7 @@ p{
 }
 .espaco2{
     line-height: 1.8;
-    text-align: justify;
+    text-align: center;
 }
 .nomes{
     background-color: #527a78;
