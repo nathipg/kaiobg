@@ -8,8 +8,9 @@
 .intro_img {
   object-fit: cover;
   box-shadow: 0 8px 6px -6px black;
-  width: 100vw;
+  width: 120vw;
   height: 100vw;
+  
 }
 
 @media (min-width: 1024px) {
@@ -18,7 +19,7 @@
     shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
     width: 680px;
     height: 480px;
-    object-position: -72px -72px;
+    object-position: -200px 3px;
     float: left;
     margin-right: 24px;
   }
