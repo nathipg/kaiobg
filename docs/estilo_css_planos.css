@@ -142,9 +142,9 @@
   margin-left: auto;
 }
 
-.bloco_cabecalho_degrade {
+/*.bloco_cabecalho_degrade {
   background-image: linear-gradient(90deg, #ff904a, #ffe1ce);
-}
+}*/
 
 .bloco_laranja_claro {
   background-color: #ffe1ce;

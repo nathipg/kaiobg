@@ -1,7 +1,7 @@
 .materias {
     height: 100%;
-    background-color: #ffe1ce;
-    border-radius: 4px ;
+    /*background-color: #ffe1ce;*/
+    border-radius: 2px ;
     
 
 }
@@ -25,7 +25,6 @@ p{
     margin-top:10px;
     margin-bottom: 30px;
     padding:0px 10px 0px 10px;
-    
     line-height: 1.5;
     font-size:20px;
     text-align: center;
@@ -64,7 +63,7 @@ p{
     flex-grow: 1;
     padding: 12px;
     background-color: #83aaa8;
-    border-radius: 30px;
+    border-radius: 0px 0px 4px 4px;;
     margin: 10px 6px;
     line-height: 1.5;
    
@@ -72,6 +71,8 @@ p{
 .midia{
     height: 550px;
     width: 950px;
+    margin-left: 100px;    
+    margin-bottom: 20px;
 }
 .intermedio2 { /** testando na página dos artigos**/
     text-align: center;

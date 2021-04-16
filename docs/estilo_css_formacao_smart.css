@@ -1,7 +1,7 @@
 .materias {
     height: 100%;
-    background-color: #ffe1ce;
-    border-radius: 4px ;
+    /*background-color: #ffe1ce;*/
+    border-radius: 2px ;
     min-width: 300px;
     max-width: 640px;
 }
@@ -68,7 +68,7 @@ p{
     flex-grow: 1;
     padding: 12px;
     background-color: #83aaa8;
-    border-radius: 30px;
+    border-radius: 0px 0px 4px 4px;
     margin: 10px 6px;
     line-height: 1.5;
    

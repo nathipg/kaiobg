@@ -1,8 +1,9 @@
 /* Intro */
 
 .intro {
-  background-color: black;
+  background-color:#e63d1f;
   color: white;
+  width: fit-content;
 }
 
 .intro_imgi {
@@ -113,7 +114,7 @@
 /**Galeria**/
 .galerias {
   height: unset;
-  background-color: #ffe1ce;
+  background-color: #e63d1f;
 }
 
 .galeria_cabecalho {
@@ -214,16 +215,17 @@
 .saiba_mais {
   /*botao do forms*/
   max-width: 300px;
-  color: #d86f2d;
+  color: #ffffff;
   padding: 10px 20px;
   display: inline-block;
   transition: all 0.2s;
   border-radius: 8px;
   font-size: 24px;
   font-weight: 400;
+  background-color: #daa520;
 }
 .saiba_mais:hover {
-  background-color: #ff904a;
+  background-color: #daa520;
   color: black;
 }
 
