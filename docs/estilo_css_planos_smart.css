@@ -92,6 +92,11 @@
 .bloco_laranja_claro {
     background-color: #ffe1ce;
 }
+.borda_agendamento{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(192, 184, 184);
+    font-size: 30px; color: #c2a711;
+}
 
 .plano {
     width: 488px;
@@ -181,8 +186,11 @@
 
 .personal{
     line-height: 1.8;
+    margin-left: 3px;
+    margin-right: 3px;
     font-size: 18px;
     color:rgb(218, 210, 210);
+    text-align: justify;
 }
 .explicacao{
     line-height: 1.3;
@@ -222,6 +230,7 @@
 .intro_text {
     padding: 8px;
     margin: 8px;
+  
     font-size: 22px;
     line-height: 36px;
     text-align: justify;
@@ -229,8 +238,9 @@
 }
 
 .blocop {
-    height:900px;
+    height:100%;
     border-radius: 4px;
+    
     overflow: hidden;
     background-color:#c73c0a;
 }

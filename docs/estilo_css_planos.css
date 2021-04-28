@@ -78,8 +78,14 @@
     box-shadow: 0 8px 6px -6px black;
   }
 
+  .borda_agendamento{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(192, 184, 184);
+    font-size: 30px; color: #c2a711;
+  }
+
   .blocop {
-    height: 380px;
+    height: 100%;
     width: 100%;
     border-radius: 0px;
     overflow: hidden;
