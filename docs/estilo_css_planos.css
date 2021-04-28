@@ -33,7 +33,7 @@
   }
 
   .intro_img1 {
-    clip-path: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
+    clip-path: polygon(0 0, 38% 0, 60% 100%, 0% 100%);
     shape-outside: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
     object-fit: cover;
     object-position: -172px -132px;
@@ -67,7 +67,7 @@
     box-shadow: 0 8px 6px -6px black;
   }
   .intro_img3 {
-    clip-path: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
+    clip-path: polygon(0 0, 32% 0, 65% 100%, 0% 100%);
     shape-outside: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
     object-fit: cover;
     object-position: -162px -182px;
