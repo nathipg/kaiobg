@@ -124,6 +124,15 @@ p{
     object-position: -12px -31px;
     float: left;  
 }
+.foto_galeria3{
+    animation: 4s infinite alternate circle;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    object-position: -15px -31px;
+    float: left;  
+}
+
 @keyframes circle {
     from {
         -webkit-clip-path: circle(0%);

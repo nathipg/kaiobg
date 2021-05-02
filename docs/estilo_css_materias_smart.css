@@ -133,6 +133,16 @@ p{
     
     
 }
+
+.foto_galeria3{
+    height: 300px;
+    width: 300px;
+    margin:0px;
+    margin-bottom: 20px;
+    margin-top:0px;
+    
+    
+}
 @keyframes circle {
     from {
         -webkit-clip-path: circle(0%);
