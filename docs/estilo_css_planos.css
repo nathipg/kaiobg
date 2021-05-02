@@ -36,7 +36,7 @@
     clip-path: polygon(0 0, 38% 0, 60% 100%, 0% 100%);
     shape-outside: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
     object-fit: cover;
-    object-position: -172px -132px;
+    object-position: -272px -002px;
     width: 680px;
     height: 480px;
     float: left;
@@ -47,7 +47,7 @@
     clip-path: polygon(0 0, 0% 100%, 32% 100%, 60% 0%);
     shape-outside: polygon(0 0, 0% 100%, 32% 100%, 60% 0%);
     object-fit: cover;
-    object-position: -72px -402px;
+    object-position: -280px -002px;
     width: 680px;
     height: 480px;
     float: left;
@@ -56,11 +56,11 @@
   }
 
   .intro_img4 {
-    clip-path: polygon(0 0, 0% 100%, 32% 100%, 60% 0%);
+    /*clip-path: polygon(0 0, 0% 100%, 32% 100%, 60% 0%);
     shape-outside: polygon(0 0, 0% 100%, 32% 100%, 60% 0%);
     object-fit: cover;
-    object-position: -142px -112px;
-    width: 680px;
+    object-position: -142px -112px;*/
+    width: 100%;
     height: 480px;
     float: left;
     margin-right: 24px;
@@ -70,7 +70,7 @@
     clip-path: polygon(0 0, 32% 0, 65% 100%, 0% 100%);
     shape-outside: polygon(0 0, 38% 0, 65% 100%, 0% 100%);
     object-fit: cover;
-    object-position: -162px -182px;
+    object-position: -192px -002px;
     width: 680px;
     height: 480px;
     float: left;
@@ -241,6 +241,8 @@
 .personal {
   line-height: 1.8;
   font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
   color: rgb(218, 210, 210);
 }
 .explicacao {
