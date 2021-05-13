@@ -139,10 +139,17 @@ p{
     width: 300px;
     margin:0px;
     margin-bottom: 20px;
-    margin-top:0px;
-    
-    
+    margin-top:0px;  
 }
+
+.foto_galeria4{
+    height: 300px;
+    width: 300px;
+    margin:0px;
+    margin-bottom: 20px;
+    margin-top:0px;  
+}
+
 @keyframes circle {
     from {
         -webkit-clip-path: circle(0%);

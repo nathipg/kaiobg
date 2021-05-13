@@ -132,6 +132,14 @@ p{
     object-position: -15px -31px;
     float: left;  
 }
+.foto_galeria4{
+    animation: 4s infinite alternate circle;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    object-position: -15px -31px;
+    float: left;  
+}
 
 @keyframes circle {
     from {
