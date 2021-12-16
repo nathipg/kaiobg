@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-  background-color:#e63d1f;
+  background-color:#121213;
   color: white;
   /*width: fit-content;*/
 }
@@ -58,7 +58,7 @@
 
 .planos {
   height: unset;
-  background-color: #ffe1ce;
+  background-color: #9ab1cf;
 }
 
 .planos_cabecalho {
@@ -129,7 +129,7 @@
 /**Galeria**/
 .galerias {
   height: unset;
-  background-color: #e63d1f;
+  background-color: #B0C4DE;
 }
 
 .galeria_cabecalho {
@@ -165,7 +165,7 @@
   justify-content: space-be;
   align-items: center;
   border-color: transparent;
-  background-color: #ffe1ce;
+  background-color: #266a78;
   transition: all 0.2s;
 }
 
@@ -261,13 +261,13 @@
   padding: 10px 30px 15px 25px;
   border: 2px solid #000000;
   display: inline-block;
-  background-color: #d86f2d;
+  background-color: #266a78;
   border-radius: 8px;
   height: 60px;
   font-size: 24px;
   font-weight: 400;
 }
 .perguntab:hover {
-  background-color: #ff904a;
+  background-color: #266a78;
   border-radius: 8px;
 }
