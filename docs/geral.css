@@ -178,11 +178,15 @@ img{
 @media (min-width: 1024px) {
     .bloco {
         height: 380px;
+       
     }
 }
 
 .bloco_cabecalho_degrade {
     background-image: linear-gradient(90deg, #B0C4DE, #e07c4b);
+}
+.bloco_cabecalho_degrade-1 {
+    background-image: linear-gradient(90deg, #B0C4DE, #3e1fc9);
 }
 
 .bloco_laranja_claro {
