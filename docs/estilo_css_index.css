@@ -1,7 +1,9 @@
 /* Intro */
 
 .intro {
-  background-color:#121213;
+  background-color:#e71515;
+  height: 485px;
+  
   color: white;
   /*width: fit-content;*/
 }
