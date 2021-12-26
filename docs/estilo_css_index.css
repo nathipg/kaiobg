@@ -2,9 +2,9 @@
 
 .intro {
   background-color:#e71515;
-  height: 485px;
-  
+ 
   color: white;
+  height: unset;
   /*width: fit-content;*/
 }
 
@@ -25,11 +25,12 @@
   .intro_imgi {
     clip-path: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
     shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
-    width: 680px;
+    width: 630px;
     height: 480px;
     object-position: -100px 3px;
     float: left;
     margin-right: 24px;
+    
   }
 
   .intro_imgi2 {
