@@ -2,10 +2,17 @@
 
 .intro {
   background-color:#e71515;
- 
   color: white;
   height: unset;
+  
   /*width: fit-content;*/
+}
+
+.principal {
+  
+  display: grid;
+  grid-auto-flow: row;
+  gap: 20px;
 }
 
 .intro_imgi {
@@ -25,9 +32,9 @@
   .intro_imgi {
     clip-path: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
     shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
-    width: 630px;
-    height: 480px;
-    object-position: -100px 3px;
+    width: 730px;
+    height: 580px;
+    object-position: -180px 3px;
     float: left;
     margin-right: 24px;
     
@@ -36,8 +43,8 @@
   .intro_imgi2 {
     clip-path: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
     shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
-    width: 680px;
-    height: 480px;
+    width: 730px;
+    height: 580px;
     object-position: -110px -180px;
     float: left;
     margin-right: 24px;
@@ -48,11 +55,11 @@
   }
 }
 
-.intro_text {
+.intro_texto {
   padding: 8px;
   margin: 8px;
-  font-size: 22px;
-  line-height: 36px;
+  font-size: 30px;
+  line-height: 40px;
   text-align: left;
   font-weight: 100;
 }
