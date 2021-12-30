@@ -143,6 +143,24 @@ img{
     background-color: #daa5208e;
     border-radius: 8px;
 }
+.pergunta_section3{/*botao do section3*/
+    max-width: 300px;
+    margin: 0px;
+    margin-top: 15px;
+    color:black;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    display: inline-block;
+    background-color: #daa520;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.pergunta_section3:hover {
+    background-color: #da2020bd;
+    border-radius: 8px;
+}
+
 .acompanhe{/** dizeres acompanhe**/
     align-items: center;
     height: 48px;
@@ -168,7 +186,6 @@ img{
 
 /* Classes genéricas */
 .bloco {
-    
     border-radius: 4px;
     overflow: hidden;
     background-color: #B0C4DE;

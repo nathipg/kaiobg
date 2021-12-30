@@ -4,8 +4,11 @@
   background-color:#e71515;
   color: white;
   height: unset;
-  
   /*width: fit-content;*/
+}
+.intro_section3{
+  height: unset;;
+  background-color:#ffffff;
 }
 
 .principal {
@@ -45,7 +48,7 @@
     shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
     width: 730px;
     height: 580px;
-    object-position: -110px -180px;
+    object-position: -300px 3px;
     float: left;
     margin-right: 24px;
   }
@@ -63,6 +66,14 @@
   text-align: left;
   font-weight: 100;
 }
+.intro_texto_section3 {
+  padding: 8px;
+  margin: 8px;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+
 
 /* Planos */
 
@@ -141,7 +152,16 @@
   height: unset;
   background-color: #B0C4DE;
 }
+/**colocar contorno na letra8**/
+.personal1{
+  -webkit-text-stroke-width: 0.5px; /* largura da borda */
+  -webkit-text-stroke-color: #000; /* cor da borda */
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: 5px;
+  margin-right: 5px;
 
+}
 .galeria_cabecalho {
   height: 48px;
   font-size: 24px;
