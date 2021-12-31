@@ -128,24 +128,27 @@ img{
 }
 .pergunta{/*botao do forms*/
     max-width: 300px;
-    margin: 0px;
+    width: auto;
+    height: auto;
+    margin: auto;
     margin-top: 15px;
     color:black;
     padding: 10px 30px;
     border: 2px solid #000000;
-    display: inline-block;
+    display: block;
     background-color: #daa520;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
 }
 .pergunta:hover {
     background-color: #daa5208e;
     border-radius: 8px;
 }
-.pergunta_section3{/*botao do section3*/
+.pergunta_section2{/*botao do ver opcoes de treino*/
     max-width: 300px;
-    margin: 0px;
+    margin: 0;
     margin-top: 15px;
     color:black;
     padding: 10px 30px;
@@ -155,6 +158,27 @@ img{
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
+}
+.pergunta_section2:hover {
+    background-color: #daa5208e;
+    border-radius: 8px;
+}
+.pergunta_section3{/*botao do section3*/
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    color:black;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    display:block;
+    text-align: center;
+    background-color: #daa520;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    
 }
 .pergunta_section3:hover {
     background-color: #da2020bd;
