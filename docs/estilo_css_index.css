@@ -7,8 +7,9 @@
   /*width: fit-content;*/
 }
 .intro_section3{
-  height: unset;;
+  height: unset;
   background-color:#ffffff;
+  background-image: url("galeria/kaio_run.jpeg");
 }
 
 .principal {
@@ -74,6 +75,8 @@
   align-content: center;
   margin-top: 100px;
   color:#e71515;
+  -webkit-text-stroke-width: 0.5px; /* largura da borda */
+  -webkit-text-stroke-color: rgb(255, 255, 255); /* cor da borda */
 }
 
 
@@ -266,13 +269,13 @@
   padding: 10px 20px;
   display: inline-block;
   transition: all 0.2s;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 24px;
   font-weight: 400;
-  background-color: #daa520;
+  background-color: #b10b0b;
 }
 .saiba_mais:hover {
-  background-color: #daa520;
+  background-color: #b41212;
   color: black;
 }
 

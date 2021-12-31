@@ -73,8 +73,7 @@ img{
     height: 48px;
     padding: 0 12px;
 }
-.insta{
-    
+.insta{ 
     background-color: #8863c4;
     width:75px;
     display: inline-block;
@@ -89,7 +88,6 @@ img{
   
 }
 .facebook{
-    
     background-color: #8863c4;
     width:75px;
     margin: 0;
@@ -103,8 +101,7 @@ img{
     margin-right: 20px;
 }
 
-.email{
-   
+.email{   
     background-color: #8863c4;
     width:75px;
     margin: 0;
@@ -132,18 +129,19 @@ img{
     height: auto;
     margin: auto;
     margin-top: 15px;
-    color:black;
+    color:rgb(255, 255, 255);
     padding: 10px 30px;
-    border: 2px solid #000000;
+    border: 2px solid #47488fe0;
     display: block;
-    background-color: #daa520;
+    background-color: #3a3b88e0;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+    transition: background .3s;
 }
 .pergunta:hover {
-    background-color: #daa5208e;
+    background-color: #da2020bd;
     border-radius: 8px;
 }
 .pergunta_section2{/*botao do ver opcoes de treino*/
@@ -154,13 +152,14 @@ img{
     padding: 10px 30px;
     border: 2px solid #000000;
     display: inline-block;
-    background-color: #daa520;
+    background-color: #484ab4ad;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
+    transition: background .3s;
 }
 .pergunta_section2:hover {
-    background-color: #daa5208e;
+    background-color: #daa520;
     border-radius: 8px;
 }
 .pergunta_section3{/*botao do section3*/
@@ -174,14 +173,15 @@ img{
     border: 2px solid #000000;
     display:block;
     text-align: center;
-    background-color: #daa520;
+    background-color: #ebe9e4ec;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
+    transition: background .3s;
     
 }
 .pergunta_section3:hover {
-    background-color: #da2020bd;
+    background-color: #11cf1bf3;
     border-radius: 8px;
 }
 
