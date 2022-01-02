@@ -1,5 +1,4 @@
 /* Intro */
-
 .planos_conteudo {
     height: 70px;
     font-size: 20px;
@@ -8,7 +7,7 @@
     align-items: center;
     padding: 0 12px;  
     min-width: 300px;
-    max-width: 640px; 
+    max-width: 640px;
     
 }
 .intro_img {
@@ -16,7 +15,7 @@
     box-shadow: 0 8px 6px -6px black;
   }
   
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) {
     .intro_img1 {
       clip-path: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
       shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
@@ -26,7 +25,7 @@
       float: left;
       margin-right: 24px;
     }
-  }
+  } */
 
 .intro_text {
     padding: 8px;
@@ -40,7 +39,6 @@
 /* Planos */
 .contato2 { /*contato profissional*/
     text-align: center; 
-    
  }
 .contato2 header {
     height: 48px;
@@ -77,7 +75,7 @@
     background-color: #ffe1ce;
     border-radius: 4px 0px 4px 4px;
     position: relative;
-}
+} 
 
 .blocop .pergunta {
     right: 8px;
@@ -88,10 +86,10 @@
 /* .bloco_cabecalho_degrade {
     background-image: linear-gradient(90deg, #ff904a, #ffe1ce);
 } */
-
+/* 
 .bloco_laranja_claro {
     background-color: #ffe1ce;
-}
+} */
 .borda_agendamento{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(192, 184, 184);
@@ -246,7 +244,6 @@
 .blocop {
     height:100%;
     border-radius: 4px;
-    
     overflow: hidden;
     background-color:#3e1fc9;
 }
