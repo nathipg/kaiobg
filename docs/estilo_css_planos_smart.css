@@ -49,7 +49,7 @@
 }
 .planos {
     height: unset;
-    background-color: #ffe1ce;
+    /* background-color: #ffe1ce; */
     border-radius: 4px;
 }
 
@@ -85,9 +85,9 @@
     position: absolute;
 }
 
-.bloco_cabecalho_degrade {
+/* .bloco_cabecalho_degrade {
     background-image: linear-gradient(90deg, #ff904a, #ffe1ce);
-}
+} */
 
 .bloco_laranja_claro {
     background-color: #ffe1ce;
