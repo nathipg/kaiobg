@@ -244,9 +244,9 @@
   line-height: 1.8;
   font-size: 18px;
   margin-left: 5px;
-  margin-right: 5px;
-  color: #ff8000;
-  -webkit-text-stroke-width: 0.01px; /* largura da borda */
+  margin-right: 20px;
+  color: #ecff3d;
+  -webkit-text-stroke-width: 0.0px; /* largura da borda */
   -webkit-text-stroke-color: rgb(255, 255, 255); /* cor da borda */
 }
 .descrição{
@@ -268,6 +268,7 @@
   line-height: 36px;
   text-align: justify;
   font-weight: 100;
+  color: #7bff3e;
 }
 
 .blocop {
