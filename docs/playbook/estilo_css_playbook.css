@@ -1,0 +1,92 @@
+.materias {
+    height: 100%;
+    /* background-color: #ffe1ce; */
+    border-radius: 4px ;
+}
+.atention{
+    color: red;
+}
+.atentionb{
+    color: rgb(4, 4, 4);
+}
+.depoimento_conteudo {
+    height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;   
+    border-radius: 4px 4px 4px 0px;
+}
+
+.shoot { /*foto formacao*/
+    text-align: center;
+    float: left;
+    width:500px;
+    margin: 10px 30px 30px 30px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+
+.cara { /*foto formacao*/
+    text-align: center;
+    float: left;
+    width:100px;
+    margin: 10px 30px 30px 30px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+
+.segundapagina {/**depoimento escrito**/
+    text-align: center;
+    display: inline-block;
+    flex-basis: 224px;
+    flex-grow: 1;
+    padding: 12px;
+    border-radius: 30px;
+    margin: 10px 6px;
+    line-height: 1.5;
+}
+.fundoeca{
+    background-color: hsl(70, 95%, 50%);
+}
+.fundoleu{
+    background-color: hsl(60, 3%, 6%);
+    color: antiquewhite;
+}
+.fundoecono{
+    background-color: hsl(147, 100%, 32%);
+}
+.fundomack{
+    background-color: hsl(20, 96%, 38%);
+    color: antiquewhite;
+}
+
+.midia{
+    height: 550px;
+    width: 950px;
+}
+
+p{
+    font-size:18px;
+}
+
+.espaco{
+    line-height: 1.8;
+    text-align: justify;
+}
+
+
+@keyframes circle {
+    from {
+        -webkit-clip-path: circle(0%);
+        clip-path: circle(0%);
+    }
+    to {
+        -webkit-clip-path: circle(120px);
+        clip-path: circle(120px);
+    }
+}
+    
