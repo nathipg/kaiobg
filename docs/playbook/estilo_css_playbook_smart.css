@@ -72,6 +72,10 @@
     background-color: hsl(20, 96%, 38%);
     color: antiquewhite;
 }
+.fundolau{
+    background-color: #ff8c00;
+    color: black;
+}
 
 p{
     font-size:18px;
