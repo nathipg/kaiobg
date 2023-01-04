@@ -267,3 +267,8 @@ img{
     margin-bottom: auto;
 
 }
+.padding_ferias {
+    padding: 15px;
+    justify-content:center;
+    color: rgb(255, 255, 255);      
+}
