@@ -8,7 +8,7 @@
     position: relative;
 }
 .background{
-    background-color: #B0C4DE	;
+    background-color: #ead1ff	;
 }
 
 
@@ -34,7 +34,7 @@ img{
 }
 /* Cabeçalho  */
 .cabecalho {
-    background-color: #9ab1cf;
+    background-color: rgb(255, 149, 0);
     padding: 5px;
     position: sticky;
     top: 0;
@@ -128,7 +128,7 @@ img{
     width: auto;
     height: auto;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     color:rgb(255, 255, 255);
     padding: 10px 30px;
     border: 2px solid #47488fe0;
@@ -212,7 +212,7 @@ img{
 .bloco {
     border-radius: 4px;
     overflow: hidden;
-    background-color: #B0C4DE;
+    background-color: #993399;
     /*border: 1px solid #bdaa00;*/
     position: relative;
 }
@@ -225,10 +225,10 @@ img{
 }
 
 .bloco_cabecalho_degrade {
-    background-image: linear-gradient(90deg, #B0C4DE, #3e1fc9);
+    background-image: linear-gradient(90deg, #c97c1f, #993399);
 }
 .bloco_cabecalho_degrade-1 {
-    background-image: linear-gradient(90deg, #B0C4DE, #96b2d6);
+    background-image: linear-gradient(270deg, #e20404, #ffffff);
 }
 
 .bloco_laranja_claro {
