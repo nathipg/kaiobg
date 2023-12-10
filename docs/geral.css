@@ -34,7 +34,7 @@ img{
 }
 /* Cabeçalho  */
 .cabecalho {
-    background-color: rgb(255, 149, 0);
+    background-color: #ff66c4;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -212,7 +212,7 @@ img{
 .bloco {
     border-radius: 4px;
     overflow: hidden;
-    background-color: #993399;
+    background-color: #fc32ae;
     /*border: 1px solid #bdaa00;*/
     position: relative;
 }
@@ -225,7 +225,7 @@ img{
 }
 
 .bloco_cabecalho_degrade {
-    background-image: linear-gradient(90deg, #c97c1f, #993399);
+    background-image: linear-gradient(90deg, #5170ff, #ff66c4);
 }
 .bloco_cabecalho_degrade-1 {
     background-image: linear-gradient(270deg, #e20404, #ffffff);

@@ -1,6 +1,6 @@
 .galerias {
   height: 100%;
-  background-color: #9ab1cf;
+  background-color: #ff66c4;
 }
 
 .galeria_cabecalho {
@@ -35,7 +35,7 @@
 
 .galeria {
   width: 300px;
-  background-color: #83aaa8;
+  background-color: #ff66c4;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
 .galeria header {
   font-size: 18px;
   font-weight: 400;
-  background-color: #83aaa8;
+  background-color: #ff66c4;
   border-bottom: 1px solid #266a78;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .galeria_link:hover {
-  background-image: linear-gradient(90deg, #d86f2d, #ffe1ce);
+  background-image: linear-gradient(90deg, #5170ff, #ff66c4);
   border-radius: 8px;
   padding: 0px 800px 0px 20px;
 }
