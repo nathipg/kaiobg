@@ -99,6 +99,16 @@
 .blocop > section {
   padding: 16px;
 }
+.galeria {
+  width: 300px;
+  background-color: #83aaa8;
+  max-height: 225px;
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 10px;
+}
 
 .intro_text {
   padding: 8px;
