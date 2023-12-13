@@ -84,6 +84,7 @@
     background-color: #ffe1ce;
     border-radius: 4px 0px 4px 4px;
     position: relative;
+    text-align: center;
 } 
 
 .blocop .pergunta {
@@ -91,7 +92,27 @@
     bottom: 8px;
     position: absolute;
 }
-
+.blocop2 {
+    height: 30%;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #b8abb5; 
+    position:relative;
+  }
+  .blocop3 {
+    height: 110%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #201396; 
+    position: relative;
+  }
+  .blocop4 {
+    height: 30%;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #1c164d; 
+    position: relative;
+  }
 /* .bloco_cabecalho_degrade {
     background-image: linear-gradient(90deg, #ff904a, #ffe1ce);
 } */
