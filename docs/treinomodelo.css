@@ -26,7 +26,6 @@ body{
  
 .box {
     width: 100%;
-    padding: 2rem;
     text-align: center;
 }
  
@@ -71,13 +70,12 @@ body{
     border:1px solid #C0C0C0;
     border-collapse:collapse;
     padding:5px;
-    margin-top: -20px;
+    margin-top: 0px;
     
 }
 .tabela th {
     border:1px solid #C0C0C0;
     padding:5px;
-    background:#F0F0F0;
 }
 .tabela td {
     border:1px solid #C0C0C0;
@@ -87,4 +85,24 @@ body{
     caption-side:top;
     text-align:center;
 
+}
+.exercicio{
+    background: rgb(176, 179, 254);
+    cursor: pointer;
+    transition:0.4s;
+}
+.exercicio:hover{
+    background-color: #14eb2d;
+}
+
+.showVideo{
+    display: block;
+}
+.showVideo:hover{
+    color: azure;
+}
+.repeticoes{
+    background: #ff7fe7;
+}
+i{
 }
