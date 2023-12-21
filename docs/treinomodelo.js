@@ -23,8 +23,8 @@ var v = document.getElementsByClassName('myVideo');
     document.getElementById('toVideo6').addEventListener('click', function() { classToggle(5),closeOtherVideo(5)});
     document.getElementById('toVideo7').addEventListener('click', function() { classToggle(6),closeOtherVideo(6)});
     document.getElementById('toVideo8').addEventListener('click', function() { classToggle(7),closeOtherVideo(7)});
-    document.getElementById('toVideo9').addEventListener('click', function() { classToggle(7),closeOtherVideo(8)});
-    document.getElementById('toVideo10').addEventListener('click', function() { classToggle(7),closeOtherVideo(9)});
+    document.getElementById('toVideo9').addEventListener('click', function() { classToggle(8),closeOtherVideo(8)});
+    document.getElementById('toVideo10').addEventListener('click', function() { classToggle(9),closeOtherVideo(9)});
 
 
     // exercicio 1//
