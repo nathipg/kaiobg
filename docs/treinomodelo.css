@@ -34,7 +34,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 450px;
+    max-width: 350px;
+    max-height: 350px;
     margin: 3rem auto;
     background-color: #fdfdfd;
     padding: 1.5rem;
@@ -109,4 +110,41 @@ body{
     padding:5px;
     margin-top: 10px;
     
+}
+
+.botao_form{/*botao do forms*/
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 2px solid #47488fe0;
+    display: block;
+    background-color: #3a3b88e0;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    transition: background .3s;
+}
+.botao_form:hover {
+    background-color: #da2020bd;
+    border-radius: 8px;
+}
+.input{
+    outline: unset;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.input:focus{
+    background-color: wheat;
+}
+.mensagem{
+    margin: 10px;
 }
