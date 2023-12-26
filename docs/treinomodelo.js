@@ -158,3 +158,5 @@ var v = document.getElementsByClassName('myVideo');
        treino10.style.backgroundColor='transparent';
    })
    
+
+
