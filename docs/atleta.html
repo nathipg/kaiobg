@@ -7,7 +7,7 @@
     <title class="eu">Treinador Individual Kaio </title>
     <link REL="SHORTCUT ICON" HREF="./galeria/favicon.ico">
     <link rel="stylesheet" href="./geral.css" />
-    <link rel="stylesheet" href="./treinomodelo.css" />
+    <link rel="stylesheet" href="./login.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
@@ -33,18 +33,97 @@
     </header>
     
     <main>
+
         <section class="contato ">
+
             <div class="container">
-            <form id="atletas" name="nome">
-                <input type="number" name="fone" />
+            
+              <div class="box">
+        
+        <div class="form-box">
+            
+            <h2> Já é membro? </h2>
+            <form id="atletas" name="nome" >
+                <div class="input-group">
+                <input type="number" name="fone" placeholder="Seu login"/>
                 <button>
                   Entrar
                 </button>
+            </div>
               </form>
+              <h3 class="h3">Criar Seu Login</h3>
+              
+            <form action="#">
+                <div class="input-group">
+                    <label for="nome"> Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite o seu email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="Digite o seu telefone" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome"> Data de nascimento</label>
+                    <input type="date" id="nome" placeholder="Quando faz aniversário?" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome"> Qual sua profissão?</label>
+                    <input type="text" id="nome" placeholder="Trabalha com o que?" required>
+                </div>
+                <div class="input-group w50">
+                    <label for="senha">Login</label>
+                    <input type="password" id="senha" placeholder="Digite seu código de acesso" required>
+                </div>
+
+                <div class="input-group w50">
+                    <label for="Confirmarsenha">Confirmar Login</label>
+                    <input type="password" id="Confirmarsenha" placeholder="Confirme seu código de acesso" required>
+                </div>
+                 
+            
+            </br>
+                <p>Anamnese</p>
+                <p class="descricao">Para que você tenha acesso aos seus treinos, precisarei de alguns dados. Faremos uma anamnese para segurança nos 
+                    treinos. Sinta-se a vontade para falar o que achar pertinente.
+                  </p>
+            </br>
+                <div class="input-group">
+                    <label for="nome"> Qual seu objetivo com os treinos?</label>
+                    <input type="text" id="nome" placeholder="Por que quer treinar?" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome"> Você possui alguma limitação ao exercício?</label>
+                    <input type="text" id="nome" placeholder="Dores e afins" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome"> Possui alguma restrição médica?</label>
+                    <input type="text" id="nome" placeholder="O médico deixa?" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome"> Toma algum remédio?</label>
+                    <input type="text" id="nome" placeholder="Remédio que possa causar algum risco" required>
+                </div>
+              
+                <div class="input-group">
+                    <label for="nome"> Estou ciente e sou responsável pelas informações aqui colocadas </label>
+                    <input type="checkbox" id="nome" required>
+                </div>
+
+                <div class="input-group">
+                    <button>Cadastrar</button>
+                </div>
+                <p>Recomendo, antes de iniciar os treinos, realizar um exame médico para ter o aval do profissional.</p>
+            </form>
+        </div>
+    </div>
               
         </div>
-            
-
         </section>
 
 
