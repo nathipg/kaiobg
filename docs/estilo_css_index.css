@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-  background-color:#ff66c4;
+  background-color:#8C8ED9;
   color: black;
   height: unset;
   /*width: fit-content;*/
@@ -10,6 +10,7 @@
   height: unset;
   background-color:#ffffff;
   background-image: url("galeria/kaio_run.jpeg");
+  opacity: 80%;
 }
 
 .principal {
@@ -20,10 +21,11 @@
 }
 
 .intro_imgi {
-  object-fit: cover;
+  object-fit:contain;
   box-shadow: 0 8px 6px -6px black;
-  width: 120vw;
+  width: 100vw;
   height: 100vw; 
+
 }
 .intro_imgi2 {
   object-fit: cover;
@@ -34,13 +36,13 @@
 
 @media (min-width: 1024px) {
   .intro_imgi {
-    clip-path: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
-    shape-outside: polygon(0 0, 50% 0, 88% 100%, 0% 100%);
+    clip-path: polygon(0 0, 50% 0, 90% 100%, 0% 100%);
+    shape-outside: polygon(0 0, 50% 0, 90% 100%, 0% 100%);
     width: 730px;
     height: 580px;
-    object-position: -180px 3px;
+    object-position: 10px;
     float: left;
-    margin-right: 24px;
+    margin-left: 0px;
     
   }
 
