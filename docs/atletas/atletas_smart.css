@@ -1,0 +1,97 @@
+.materias {
+    height: 100%;
+    /* background-color: #ffe1ce; */
+    border-radius: 4px ;
+    min-width: 300px;
+    max-width: 640px;
+}
+
+.midia{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    background-color: #e1dddd;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    padding-inline: 10px;
+  }
+
+  .btn{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1dddd;
+  }
+  
+  .btn1{
+    background-color: #5170ff;
+  }
+  .btn2{
+    background-color: #FF008A;
+  }
+  .btn3{
+    background-color: #2dd85b;
+    color: #000000;
+  }
+
+
+  .corpo{
+    display: block;
+    margin-left: 0px;
+  }
+
+.depoimento_conteudo {
+    height: 52px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;   
+    border-radius: 4px 4px 4px 0px;
+}
+p{
+    font-size: 20px;
+}
+
+.depoimento {
+    text-align: left;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding:0px 10px 0px 10px;
+    
+    line-height: 1.5;
+    font-size:20px;
+    text-align: center;
+}
+
+.shoot { /*foto formacao*/
+    text-align: center;
+    float: left;
+    width:100%;
+    
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+}
+.cara { /*foto formacao*/
+    width:100px;
+    margin: 10px;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 0;
+    margin-bottom: auto;  
+    border-radius: 50%; 
+    object-fit: cover;
+
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+  }
+

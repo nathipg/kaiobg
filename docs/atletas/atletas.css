@@ -1,23 +1,103 @@
-.galeria {
-   
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border-radius: 8px;
-    margin-left: 30px;
-    margin-top: 20px;
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: #f9ecec;
+  border-radius:20px;
+
+}
+.cara { /*foto formacao*/
+  width: 100%;
+  max-width: fit-content;
+  max-width: 150px;
+  object-fit: cover;
+  border: 1px solid rgb(19, 17, 17);
+  border-radius: 50%; 
+  align-items: center;
+  margin: 10px;
+}
+
+.imagem{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background-color: #e1dddd;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+.btn{
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1dddd;
+}
+
+.btn1{
+  background-color: #5170ff;
+}
+.btn2{
+  background-color: #FF008A;
+}
+.btn3{
+  background-color: #2dd85b;
+  color: #000000;
+}
+.corpo{
+  display: flex;
+  margin-left: 20px;
+}
+
+.botoes_treino{
+  display:inline-block;
+  margin: 10px;
+ 
+}
+
+.continue_lendo{/*botao do forms*/
+  max-width: 300px;
+  margin: 40px 40px 0px 40px;
+  color:black;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  display: inline-block;
+  background-color: #d86f2d;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.continue_lendo:hover {
+  background-color: #ff904a;
+  border-radius: 8px;
+}
+.foto_galeria{
+  animation: 4s infinite alternate circle;
+  display: flex;
+  height: 200px;
+  width: 300px;
+  object-position: -12px -2px;
+  float: left;
+  
+}
+@keyframes circle {
+  from {
+      -webkit-clip-path: circle(0%);
+      clip-path: circle(0%);
   }
-
-
-  #muda:checked ~ .box {
-    color: red;
-    text-align: justify;
+  to {
+      -webkit-clip-path: circle(120px);
+      clip-path: circle(120px);
+  }
 }
-.box {
-    width: 300px;
-    border: 1px solid #000;
-}
-.alterar{ 
-  color: red;
-  text-align: justify;
-}
+  
