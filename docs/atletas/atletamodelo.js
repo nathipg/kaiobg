@@ -25,6 +25,8 @@ var v = document.getElementsByClassName('myVideo');
     document.getElementById('toVideo8').addEventListener('click', function() { classToggle(7),closeOtherVideo(7)});
     document.getElementById('toVideo9').addEventListener('click', function() { classToggle(8),closeOtherVideo(8)});
     document.getElementById('toVideo10').addEventListener('click', function() { classToggle(9),closeOtherVideo(9)});
+    document.getElementById('toVideo11').addEventListener('click', function() { classToggle(10),closeOtherVideo(10)});
+    document.getElementById('toVideo12').addEventListener('click', function() { classToggle(11),closeOtherVideo(11)});
 
 
     // exercicio 1//
@@ -156,6 +158,34 @@ var v = document.getElementsByClassName('myVideo');
    ntreino10.addEventListener("click", function(event){
        ntreino10.style.backgroundColor="red";
        treino10.style.backgroundColor='transparent';
+   })
+
+    // exercicio 11//
+    var treino11 = document.getElementById('selecao11');
+    var ntreino11 = document.getElementById('nselecao11');
+ 
+    treino10.addEventListener("click", function(event){
+        treino11.style.backgroundColor="#ADFF2F";
+        ntreino11.style.backgroundColor='transparent';
+    })
+ 
+    ntreino10.addEventListener("click", function(event){
+        ntreino11.style.backgroundColor="red";
+        treino11.style.backgroundColor='transparent';
+    })
+
+     // exercicio 12//
+   var treino12 = document.getElementById('selecao12');
+   var ntreino12 = document.getElementById('nselecao12');
+
+   treino12.addEventListener("click", function(event){
+       treino12.style.backgroundColor="#ADFF2F";
+       ntreino12.style.backgroundColor='transparent';
+   })
+
+   ntreino12.addEventListener("click", function(event){
+       ntreino12.style.backgroundColor="red";
+       treino12.style.backgroundColor='transparent';
    })
    
 
