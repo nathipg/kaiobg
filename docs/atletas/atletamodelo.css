@@ -1,0 +1,150 @@
+/*Geral*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+ 
+.box {
+    width: 100%;
+    text-align: center;
+}
+ 
+ .myVideo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 3rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+ }
+
+.boxHeader {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.video-menu {
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+.boxHeader a {
+    margin: 0.275rem;
+}
+  
+.boxBottom {
+    width: 100%;
+}
+
+.active {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+.tabela {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+    margin-top: 0px;
+    
+}
+.tabela th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+}
+.tabela td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+}
+.tabela caption {
+    caption-side:top;
+    text-align:center;
+
+}
+.exercicio{
+    background: rgb(176, 179, 254);
+    cursor: pointer;
+    transition:0.4s;
+}
+.exercicio:hover{
+    background-color: #14eb2d;
+}
+
+.showVideo{
+    display: block;
+}
+.showVideo:hover{
+    color: azure;
+}
+.repeticoes{
+    background: #ff7fe7;
+}
+
+.nome{
+    padding:5px;
+    margin-top: 10px;
+    
+}
+
+.botao_form{/*botao do forms*/
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 2px solid #47488fe0;
+    display: block;
+    background-color: #3a3b88e0;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    transition: background .3s;
+}
+.botao_form:hover {
+    background-color: #da2020bd;
+    border-radius: 8px;
+}
+.input{
+    outline: unset;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.input:focus{
+    background-color: wheat;
+}
+.mensagem{
+    margin: 10px;
+}
