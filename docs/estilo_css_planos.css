@@ -1,5 +1,56 @@
 /* Intro */
+.card{
+  background-color: #8C8ED9;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  min-height: 200px;
+}
 
+.cardt{
+  background-color: #47BDC5;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  min-height: 200px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  margin: 3rem auto;
+  /* padding: 1.5rem; */
+  background-color: #f9ecec;
+  border-radius:5px ;
+  margin-bottom: -10px;
+
+}
+.linha{
+justify-content: center;
+}
+
+.corpo{
+  display: flex;
+}
+
+.planos{
+  width: 100%;
+
+}
+.espaco{
+  margin: 10px;
+  text-align: center;
+}
+.planos_divisao{
+  display: block;
+  margin: 5px;
+  margin-left: 15px;
+  text-align: center;
+}
 .planos_conteudo {
   height: 48px;
   font-size: 24px;
