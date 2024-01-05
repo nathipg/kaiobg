@@ -185,6 +185,28 @@ img{
     border-radius: 8px;
 }
 
+.pergunta_section4{/*botao do plano*/
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    color:black;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    display:block;
+    text-align: center;
+    background-color: #DDA1C6;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: background .3s;
+    
+}
+.pergunta_section4:hover {
+    background-color: #11cf1bf3;
+    border-radius: 8px;
+}
 .acompanhe{/** dizeres acompanhe**/
     align-items: center;
     height: 48px;
