@@ -164,12 +164,12 @@ var v = document.getElementsByClassName('myVideo');
     var treino11 = document.getElementById('selecao11');
     var ntreino11 = document.getElementById('nselecao11');
  
-    treino10.addEventListener("click", function(event){
+    treino11.addEventListener("click", function(event){
         treino11.style.backgroundColor="#ADFF2F";
         ntreino11.style.backgroundColor='transparent';
     })
  
-    ntreino10.addEventListener("click", function(event){
+    ntreino11.addEventListener("click", function(event){
         ntreino11.style.backgroundColor="red";
         treino11.style.backgroundColor='transparent';
     })
