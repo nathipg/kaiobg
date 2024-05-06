@@ -156,3 +156,11 @@ body{
     padding: 0;
     margin-bottom: auto;  
 }
+
+.tabela + .tabela {
+  margin-top: 2rem;
+}
+
+.tabela .repeticoes tr th {
+  max-width: 100px;
+}

@@ -4,574 +4,197 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="10800; URL='https://kaioguerrero.com/atleta'"/>
+    <meta http-equiv="refresh" content="10800; URL='https://kaioguerrero.com/atleta'" />
+
     <title class="eu">Treinador Individual Kaio </title>
+
     <link REL="SHORTCUT ICON" HREF="../galeria/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../geral.css" />
     <link rel="stylesheet" href="../atletamodelo.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-</head>
 
+    <script>
+        // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
+        var treino = [
+            {
+                nome: 'Rosca direta na barra',
+                repeticoes: '10',
+                series: '3',
+                peso: '5 kg cd',
+                descanso: '20 segundos',
+                video: '../galeria/videos/rosca_barra.MOV',
+            },
+            {
+                nome: 'Remada no banco',
+                repeticoes: '12',
+                series: '4',
+                peso: '8 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/Rem_banco.MOV',
+            },
+            {
+                nome: 'Elevação frontal com halter',
+                repeticoes: '10',
+                series: '3',
+                peso: '4 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/ele_front.MOV',
+            },
+            {
+                nome: 'Supino com halter',
+                repeticoes: '15',
+                series: '4',
+                peso: '6 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/sup_incl_halter.MOV',
+            },
+            {
+                nome: 'Triceps francês com halter',
+                repeticoes: '10',
+                series: '3',
+                peso: '8 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/tri_fran.MOV',
+            },
+            {
+                nome: 'Panturrilha unilateral',
+                repeticoes: '15',
+                series: '4',
+                peso: '4 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/pant_solo.MOV',
+            },
+            {
+                nome: 'Agachamento',
+                repeticoes: '10',
+                series: '4',
+                peso: '10 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/agachamento.MOV',
+            },
+            {
+                nome: 'Sumô na barra',
+                repeticoes: '20',
+                series: '4',
+                peso: '10 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/sumo.MOV',
+            },
+            {
+                nome: 'Agachamento com barra',
+                repeticoes: '15',
+                series: '4',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/videos/terra.MOV',
+            },
+            {
+                nome: 'Abdominal bicicleta',
+                repeticoes: '50',
+                series: '2',
+                peso: '0',
+                descanso: '0',
+                video: '../galeria/videos/bicicleta.MOV',
+            },
+            {
+                nome: 'Prancha alta',
+                repeticoes: '30 segundos',
+                series: '3',
+                peso: '0 kg',
+                descanso: '0',
+                video: '../galeria/embreve.mp4',
+            },
+            {
+                nome: 'Abdominal remador',
+                repeticoes: '12',
+                series: '4',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/videos/abd_rem.MOV',
+            },
+        ];
+    </script>
+</head>
 
 <body>
     <div class="background">
-    <header class="cabecalho">
-        <nav class="cabecalho_menu">
-            <a class="cabecalho_link" href='../index.html'>Início</a>
-            <a class="cabecalho_link" href='../formacao.html'>Currículo</a>
-            <a class="cabecalho_link" href='../planos.html'>Planos de treinos</a>
-            <a class="cabecalho_link" href='../artigos.html'>Matérias</a>
-            <a class="cabecalho_link" href='../galeria.html'>Galeria</a>
-            <a class="cabecalho_link" href='../depoimentos.html'>Depoimentos</a>
-            <a class="cabecalho_link" href='../atleta.html'>Área do atleta</a>
-            <a class="cabecalho_link" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Contato</a>
-        </nav>
+        <header class="cabecalho">
+            <nav class="cabecalho_menu">
+                <a class="cabecalho_link" href='../index.html'>Início</a>
+                <a class="cabecalho_link" href='../formacao.html'>Currículo</a>
+                <a class="cabecalho_link" href='../planos.html'>Planos de treinos</a>
+                <a class="cabecalho_link" href='../artigos.html'>Matérias</a>
+                <a class="cabecalho_link" href='../galeria.html'>Galeria</a>
+                <a class="cabecalho_link" href='../depoimentos.html'>Depoimentos</a>
+                <a class="cabecalho_link" href='../atleta.html'>Área do atleta</a>
+                <a class="cabecalho_link" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Contato</a>
+            </nav>
 
-    </header>
-    
-    <main>
-        <section class="contato ">
-            <header class="contato_cabecalho bloco_cabecalho_degrade">Treino A</header>
+        </header>
+
+        <main>
+            <section class="contato ">
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino A</header>
 
 
-            <div class="container">
-                <!-- ex 1 -->
-                <table class="tabela">
-                    <div class="box">
-                        <div class="boxHeader">
-                            <div class="video-menu">
-                                <thead class="exercicio">
-                                <tr>
-                                    <th colspan="5">
-                                    <a href="#vd" id="toVideo1" class="showVideo">Rosca direta na barra</a>
-                                    </th>
-                                </tr>
-                                </thead>
-                        </div>
-                            <thead class="repeticoes">
-                                <tr>
-                                        <th>Repetições</th>
-                                        <th>Séries</th>
-                                        <th>Peso</th>
-                                        <th>Descanso</th>
-                                        <th id="nselecao1" class="">
-                                            <label><input type="radio" name="botao1" > Não treinei</label>
-                                        </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                        <td>&nbsp;10 </td>
-                                        <td>&nbsp;3</td>
-                                        <td>&nbsp;5 kg cd</td> 
-                                        <td>&nbsp;20 segundos</td> 
-                                        <td id="selecao1" class="">
-                                            <label><input type="radio" name="botao1" > Treinei</label>
-                                            
-                                        </td>      
-                                </tr>
-                            </tbody>
+                <div class="container">
+
+                    <div class="boxBottom">
+                        <div id="vd"></div>
                     </div>
-                    </table>
-                    <!-- ex 2 -->
-                <table class="tabela">
-                    <div class="box">
-                        <div class="boxHeader">
-                            <div class="video-menu">
-                                <thead class="exercicio">
-                                <tr>
-                                    <th colspan="5">
-                                    <a href="#vd" id="toVideo2" class="showVideo">Remada no banco</a>
-                                    </th>
-                                </tr>
-                                </thead>
+
+                    <form class="nome" action="https://formsubmit.co/kaiobgmartins@gmail.com" method="POST">
+                        <input type="text" class="input" name="name" placeholder="Seu nome" required />
+                        <div class="mensagem">
+                            <textarea cols="22" rows="5" class="input" name="mensagem"
+                                placeholder="Alguma consideração?"></textarea>
+
                         </div>
-                            <thead class="repeticoes">
-                                <tr>
-                                        <th>Repetições</th>
-                                        <th>Séries</th>
-                                        <th>Carga</th>
-                                        <th>Descanso</th>
-                                        <th id="nselecao2" class="">
-                                            <label><input type="radio" name="botao2" > Não treinei</label>
-                                        </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                        <td>&nbsp;12</td>
-                                        <td>&nbsp;4</td>
-                                        <td>&nbsp;8 kg</td>
-                                        <td>&nbsp;30 segundos</td>   
-                                        <td id="selecao2" class="">
-                                            <label><input type="radio" name="botao2" > Treinei</label>
-                                            
-                                        </td>     
-                                </tr>
-                            </tbody>
+                        <input type="hidden" class="input" name="_next" value="https://kaioguerrero.com/atleta.html" />
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="botao_form">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+
+            <section class="contato bloco ">
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Entre em contato</header>
+                <div class="contato_form">
+                    <div class="contato">
+                        <!--ultima parte do contato profissional-->
+                        <header class="perguntas"> Quaisquer dúvidas, perguntas, questionamentos, aflições e
+                            sugestões:</header>
+
+                        <div><a class="pergunta" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Pergunte
+                                aqui</a> </div>
+
+                        <header class=" acompanhe"><b>Acompanhe</b></header>
+
+                        <a href="https://www.instagram.com/kaio_guerrero/" target="blank"><img class="insta"
+                                src="../galeria/insta.jpg"></a>
+
+                        <a href="https://www.facebook.com/kaio.borgesguerrero" target="blank"><img class="facebook"
+                                src="../galeria/facebook2.jpg"></a>
+
+                        <A HREF="mailto:kaiobg@hotmail.com" target="blank"><img class="email"
+                                src="../galeria/hotmail.jpg"></a>
                     </div>
-                    <!-- ex 3 -->
-                    </table>
-                    <table class="tabela">
-                        <div class="box">
-                            <div class="boxHeader">
-                                <div class="video-menu">
-                                    <thead class="exercicio">
-                                    <tr>
-                                        <th colspan="5">
-                                        <a href="#vd" id="toVideo3" class="showVideo">Elevação frontal com halter</a>
-                                        </th>
-                                    </tr>
-                                    </thead>
-                            </div>
-                                <thead class="repeticoes">
-                                    <tr>
-                                            <th>Repetições</th>
-                                            <th>Séries</th>
-                                            <th>Carga</th>
-                                            <th>Descanso</th>
-                                            <th id="nselecao3" class="">
-                                                <label><input type="radio" name="botao3" > Não treinei</label>
-                                            </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                            <td>&nbsp;10</td>
-                                            <td>&nbsp;3</td>
-                                            <td>&nbsp;4 kg</td>
-                                            <td>&nbsp;20 segundos</td> 
-                                            <td id="selecao3" class="">
-                                                <label><input type="radio" name="botao3" > Treinei</label>
-                                                
-                                            </td>      
-                                    </tr>
-                                </tbody>
-                        </div>
-                        <!-- ex 4 -->
-                        </table>
-                        <table class="tabela">
-                            <div class="box">
-                                <div class="boxHeader">
-                                    <div class="video-menu">
-                                        <thead class="exercicio">
-                                        <tr>
-                                            <th colspan="5">
-                                            <a href="#vd" id="toVideo4" class="showVideo">Supino com halter</a>
-                                            </th>
-                                        </tr>
-                                        </thead>
-                                </div>
-                                    <thead class="repeticoes">
-                                        <tr>
-                                                <th>Repetições</th>
-                                                <th>Séries</th>
-                                                <th>Carga</th>
-                                                <th>Descanso</th>
-                                                <th id="nselecao4" class="">
-                                                    <label><input type="radio" name="botao4" > Não treinei</label>
-                                                </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                                <td>&nbsp;15</td>
-                                                <td>&nbsp;4</td>
-                                                <td>&nbsp;6 kg</td>
-                                                <td>&nbsp;30 segundos</td> 
-                                                <td id="selecao4" class="">
-                                                    <label><input type="radio" name="botao4" > Treinei</label>
-                                                    
-                                                </td>  
-                                        </tr>
-                                    </tbody>
-                            </div>
-                            </table>
-                                <!-- ex 5 -->
-                            <table class="tabela">
-                                <div class="box">
-                                    <div class="boxHeader">
-                                        <div class="video-menu">
-                                            <thead class="exercicio">
-                                            <tr>
-                                                <th colspan="5">
-                                                <a href="#vd" id="toVideo5" class="showVideo">Triceps francês com halter</a>
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                    </div>
-                                        <thead class="repeticoes">
-                                            <tr>
-                                                    <th>Repetições</th>
-                                                    <th>Séries</th>
-                                                    <th>Carga</th>
-                                                    <th>Descanso</th>
-                                                    <th id="nselecao5" class="">
-                                                        <label><input type="radio" name="botao5" > Não treinei</label>
-                                                    </th>
-
-                                                    
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                    <td>&nbsp;10</td>
-                                                    <td>&nbsp;3</td>
-                                                    <td>&nbsp;8 kg</td>
-                                                    <td>&nbsp;30 segundos</td>   
-                                                    <td id="selecao5" class="">
-                                                        <label><input type="radio" name="botao5" > Treinei</label>
-                                                        
-                                                    </td>  
-                                            </tr>
-                                        </tbody>
-                                </div>
-                                </table>
-                                <!-- ex 6 -->
-                            <table class="tabela">
-                                <div class="box">
-                                    <div class="boxHeader">
-                                        <div class="video-menu">
-                                            <thead class="exercicio">
-                                            <tr>
-                                                <th colspan="5">
-                                                <a href="#vd" id="toVideo6" class="showVideo">Panturrilha unilateral</a>
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                    </div>
-                                        <thead class="repeticoes">
-                                            <tr>
-                                                    <th>Repetições</th>
-                                                    <th>Séries</th>
-                                                    <th>Carga</th>
-                                                    <th>Descanso</th>
-                                                    <th id="nselecao6" class="">
-                                                        <label><input type="radio" name="botao6" > Não treinei</label>
-                                                    </th>
-
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                    <td>&nbsp;15</td>
-                                                    <td>&nbsp;4</td>
-                                                    <td>&nbsp;4 kg</td>
-                                                    <td>&nbsp;30 segundos</td>    
-                                                    <td id="selecao6" class="">
-                                                        <label><input type="radio" name="botao6" > Treinei</label>
-                                                        
-                                                    </td>   
-                                            </tr>
-                                        </tbody>
-                                </div>
-                                </table>
-                                <!-- ex 7 -->
-                                <table class="tabela">
-                                    <div class="box">
-                                        <div class="boxHeader">
-                                            <div class="video-menu">
-                                                <thead class="exercicio">
-                                                <tr>
-                                                    <th colspan="5">
-                                                    <a href="#vd" id="toVideo7" class="showVideo">Agachamento</a>
-                                                    </th>
-                                                </tr>
-                                                </thead>
-                                        </div>
-                                            <thead class="repeticoes">
-                                                <tr>
-                                                        <th>Repetições</th>
-                                                        <th>Séries</th>
-                                                        <th>Carga</th>
-                                                        <th>Descanso</th>
-                                                        <th id="nselecao7" class="">
-                                                            <label><input type="radio" name="botao7" > Não treinei</label>
-                                                        </th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                        <td>&nbsp;10</td>
-                                                        <td>&nbsp;4</td>
-                                                        <td>&nbsp;10 kg</td>
-                                                        <td>&nbsp;20 segundos</td>   
-                                                        <td id="selecao7" class="">
-                                                            <label><input type="radio" name="botao7" > Treinei</label>
-                                                            
-                                                        </td>    
-                                                </tr>
-                                            </tbody>
-                                    </div>
-                                    </table>
-                                    <!-- ex 8 -->
-                                    <table class="tabela">
-                                        <div class="box">
-                                            <div class="boxHeader">
-                                                <div class="video-menu">
-                                                    <thead class="exercicio">
-                                                    <tr>
-                                                        <th colspan="5">
-                                                        <a href="#vd" id="toVideo8" class="showVideo">Sumô na barra</a>
-                                                        </th>
-                                                    </tr>
-                                                    </thead>
-                                            </div>
-                                                <thead class="repeticoes">
-                                                    <tr>
-                                                            <th>Repetições</th>
-                                                            <th>Séries</th>
-                                                            <th>Carga</th>
-                                                            <th>Descanso</th>
-                                                            <th id="nselecao8" class="">
-                                                                <label><input type="radio" name="botao8" > Não treinei</label>
-                                                            </th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                            <td>&nbsp;20</td>
-                                                            <td>&nbsp;4</td>
-                                                            <td>&nbsp;10 kg</td>
-                                                            <td>&nbsp;30 segundos</td>     
-                                                            <td id="selecao8" class="">
-                                                                <label><input type="radio" name="botao" > Treinei</label>
-                                                                
-                                                            </td>     
-
-                                                    </tr>
-                                                </tbody>
-                                        </div>
-                                        </table>
-                                        <!-- ex 9 -->
-                                <table class="tabela">
-                                    <div class="box">
-                                        <div class="boxHeader">
-                                            <div class="video-menu">
-                                                <thead class="exercicio">
-                                                <tr>
-                                                    <th colspan="5">
-                                                    <a href="#vd" id="toVideo9" class="showVideo">Agachamento com barra</a>
-                                                    </th>
-                                                </tr>
-                                                </thead>
-                                        </div>
-                                            <thead class="repeticoes">
-                                                <tr>
-                                                        <th>Repetições</th>
-                                                        <th>Séries</th>
-                                                        <th>Carga</th>
-                                                        <th>Descanso</th>
-                                                        <th id="nselecao9" class="">
-                                                            <label><input type="radio" name="botao9" > Não treinei</label>
-                                                        </th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                        <td>&nbsp;15</td>
-                                                        <td>&nbsp;4</td>
-                                                        <td>&nbsp;0</td>
-                                                        <td>&nbsp;20 segundos</td>   
-                                                        <td id="selecao9" class="">
-                                                            <label><input type="radio" name="botao9" > Treinei</label>
-                                                            
-                                                        </td>    
-                                                </tr>
-                                            </tbody>
-                                    </div>
-                                    </table>
-                                    <!-- ex 10 -->
-                                    <table class="tabela">
-                                        <div class="box">
-                                            <div class="boxHeader">
-                                                <div class="video-menu">
-                                                    <thead class="exercicio">
-                                                    <tr>
-                                                        <th colspan="5">
-                                                        <a href="#vd" id="toVideo10" class="showVideo">Abdominal bicicleta</a>
-                                                        </th>
-                                                    </tr>
-                                                    </thead>
-                                            </div>
-                                                <thead class="repeticoes">
-                                                    <tr>
-                                                            <th>Repetições</th>
-                                                            <th>Séries</th>
-                                                            <th>Carga</th>
-                                                            <th>Descanso</th>
-                                                            <th id="nselecao10" class="">
-                                                                <label><input type="radio" name="botao10" > Não treinei</label>
-                                                            </th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                            <td>&nbsp;50</td>
-                                                            <td>&nbsp;2</td>
-                                                            <td>&nbsp;0</td>
-                                                            <td>&nbsp;0</td>     
-                                                            <td id="selecao10" class="">
-                                                               <label> <input type="radio" name="botao10" > Treinei</label>
-                                                                
-                                                            </td>     
-
-                                                    </tr>
-                                                </tbody>
-                                            </div>
-                                        </table>
-                                                <!-- ex 11 -->
-                                    <table class="tabela">
-                                        <div class="box">
-                                            <div class="boxHeader">
-                                                <div class="video-menu">
-                                                    <thead class="exercicio">
-                                                        <tr>
-                                                            <th colspan="5">
-                                                            <a href="#vd" id="toVideo10" class="showVideo">Prancha alta</a>
-                                                            </th>
-                                                    </tr>
-                                                    </thead>
-                                            </div>
-                                                <thead class="repeticoes">
-                                                    <tr>
-                                                            <th>Repetições</th>
-                                                            <th>Séries</th>
-                                                            <th>Carga</th>
-                                                            <th>Descanso</th>
-                                                            <th id="nselecao11" class="">
-                                                                <label><input type="radio" name="botao11" > Não treinei</label>
-                                                            </th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                            <td>&nbsp;30 segundos</td>
-                                                            <td>&nbsp;3</td>
-                                                            <td>&nbsp;0 kg</td>
-                                                            <td>&nbsp;0</td>     
-                                                            <td id="selecao11" class="">
-                                                               <label> <input type="radio" name="botao11" > Treinei</label>
-                                                                
-                                                            </td>     
-
-                                                    </tr>
-                                                </tbody>
-                                                <!-- ex 12 -->
-                                     <table class="tabela">
-                                        <div class="box">
-                                            <div class="boxHeader">
-                                                <div class="video-menu">
-                                                    <thead class="exercicio">
-                                                    <tr>
-                                                        <th colspan="5">
-                                                        <a href="#vd" id="toVideo12" class="showVideo">Abdominal remador</a>
-                                                        </th>
-                                                    </tr>
-                                                    </thead>
-                                            </div>
-                                                <thead class="repeticoes">
-                                                    <tr>
-                                                            <th>Repetições</th>
-                                                            <th>Séries</th>
-                                                            <th>Carga</th>
-                                                            <th>Descanso</th>
-                                                            <th id="nselecao12" class="">
-                                                                <label><input type="radio" name="botao12" > Não treinei</label>
-                                                            </th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                            <td>&nbsp;12</td>
-                                                            <td>&nbsp;4</td>
-                                                            <td>&nbsp;0</td>
-                                                            <td>&nbsp;20 segundos</td>     
-                                                            <td id="selecao12" class="">
-                                                               <label> <input type="radio" name="botao12" > Treinei</label>
-                                                                
-                                                            </td>     
-
-                                                    </tr>
-                                                </tbody>
-                                        </div>
-                                        </table>
-                <div class="boxBottom">
-                    <div id="vd"></div>
-                    <video id="video1" class="myVideo hide" controls src="../galeria/videos/rosca_barra.MOV"> </video>
-                    <video id="video2" class="myVideo hide" controls src="../galeria/videos/Rem_banco.MOV"></video>
-                    <video id="video3" class="myVideo hide" controls src="../galeria/videos/ele_front.MOV"></video>
-                    <video id="video4 " class="myVideo hide" controls src="../galeria/videos/sup_incl_halter.MOV"></video>
-                    <video id="video5" class="myVideo hide" controls src="../galeria/videos/tri_fran.MOV"></video>
-                    <video id="video6" class="myVideo hide" controls src="../galeria/videos/pant_solo.MOV"></video>
-                    <video id="video7" class="myVideo hide" controls src="../galeria/videos/agachamento.MOV"></video>
-                    <video id="video8" class="myVideo hide" controls src="../galeria/videos/sumo.MOV"></video>
-                    <video id="video9" class="myVideo hide" controls src="../galeria/videos/terra.MOV"></video>
-                    <video id="video10" class="myVideo hide" controls src="../galeria/videos/bicicleta.MOV"></video>
-                    <video id="video11" class="myVideo hide" controls src="../galeria/embreve.mp4"></video>
-                    <video id="video12" class="myVideo hide" controls src="../galeria/videos/abd_rem.MOV"></video>
-
                 </div>
-            <form class="nome" action="https://formsubmit.co/kaiobgmartins@gmail.com" method="POST">
-                <input type="text" class="input" name="name" placeholder="Seu nome" required/>
-                <div class="mensagem">
-                   <textarea  cols="22" rows="5" class="input" name="mensagem" placeholder="Alguma consideração?"></textarea>
+            </section>
+            </section>
+        </main>
 
-                </div>
-                <input type="hidden" class="input" name="_next" value="https://kaioguerrero.com/atleta.html"/>
-                <input type="hidden" name="_captcha" value="false">
-                <button type="submit" class="botao_form">Enviar</button>
-            </form>
-
-            
-              
+        <div class="rodape"><!--cabeçalho da pagina com os botoes-->
+            <img class="tatoo3" src="../galeria/tatoo2.jpg">
+            <h2 class="eu"> Kaio Borges Guerrero</h2>
         </div>
-            
-
-        </section>
-
-
-        <section class="contato bloco ">
-            <header class="contato_cabecalho bloco_cabecalho_degrade">Entre em contato</header>
-            <div class="contato_form">
-                <div class="contato">
-                    <!--ultima parte do contato profissional-->
-                    <header class="perguntas"> Quaisquer dúvidas, perguntas, questionamentos, aflições e
-                        sugestões:</header>
-
-                    <div><a class="pergunta" href='https://forms.gle/1QTeVYwwb9xidKaGA' target="blank"> Pergunte
-                            aqui</a> </div>
-
-                    <header class=" acompanhe"><b>Acompanhe</b></header>
-
-                    <a href="https://www.instagram.com/kaio_guerrero/" target="blank"><img class="insta"
-                            src="../galeria/insta.jpg"></a>
-
-                    <a href="https://www.facebook.com/kaio.borgesguerrero" target="blank"><img class="facebook"
-                            src="../galeria/facebook2.jpg"></a>
-
-                    <A HREF="mailto:kaiobg@hotmail.com" target="blank"><img class="email"
-                            src="../galeria/hotmail.jpg"></a>
-                </div>
-            </div>
-        </section>
- </section>
- </main>
-    <div class="rodape"><!--cabeçalho da pagina com os botoes-->
-     <img class="tatoo3" src="../galeria/tatoo2.jpg">
-     <h2 class="eu"> Kaio Borges Guerrero</h2>
     </div>
- </div>
- <script async src="atletaprototopo.js"></script>
- </body>
+
+    <script async src="atletaprototopo.js"></script>
+</body>
+
+</html>
