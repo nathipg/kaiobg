@@ -19,81 +19,118 @@
     <script>
         // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
         var treino = [
-        {
-                nome: 'Mobilidade ombro na parede',
-                repeticoes: '10',
-                series: '1',
-                peso: '0 kg ',
-                descanso: '20 segundos',
-                video: '../galeria/videos/mob_ombro_parede.mp4',
-            }, 
             {
-                nome: 'Mobilidade de punho',
+                nome: 'mobilidade mão no pé',
                 repeticoes: '10',
-                series: '1',
-                peso: '0 kg ',
-                descanso: '0 segundos',
-                video: '../galeria/videos/punho_mob.mp4',
-            }, 
-            {
-                nome: 'Abdominal banco 45 graus',
-                repeticoes: '10',
-                series: '3',
-                peso: '0',
+                series: '2',
+                peso: '0 kg cd',
                 descanso: '20 segundos',
-                video: '../galeria/videos/abd_banco_45.mp4',
+                video: '../galeria/videos/mob_mao_pe.mp4',
             },
             {
-                nome: 'Abdominal canoa',
-                repeticoes: '30 segundos',
+                nome: 'Afundo trocando em salto',
+                repeticoes: '10',
                 series: '3',
-                peso: '0',
-                descanso: '20 segundos',
-                video: '../galeria/videos/abd_canoa.mp4',
-            },
-            {
-                nome: 'Flexão de braço com joelho',
-                repeticoes: '8',
-                series: '4',
                 peso: '0 kg',
                 descanso: '30 segundos',
-                video: '../galeria/videos/pei_flex_jo.mp4',
+                video: '../galeria/embreve.mp4',
             },
             {
-                nome: 'Crucifixo fly na máquina',
-                repeticoes: '12',
-                series: '4',
-                peso: ' kg',
-                descanso: '30 segundos',
-                video: '../galeria/videos/pei_fly.mp4',
-            },
-            {
-                nome: 'Triceps testa na polia',
-                repeticoes: '12',
-                series: '3',
-                peso: 'kg ',
+                nome: 'Mobilidade de quadril 90 graus',
+                repeticoes: '10',
+                series: '1',
+                peso: '0 kg',
                 descanso: '20 segundos',
-                video: '../galeria/videos/tri_pulley_polia.mp4',
+                video: '../galeria/videos/quadril90graus.mp4',
             },
-
             {
-                nome: 'Abdutora na polia',
-                repeticoes: '15',
-                series: '3',
-                peso: ' kg',
+                nome: 'Mobilidade de quadril parede',
+                repeticoes: '10',
+                series: '1',
+                peso: '0 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/mob_ombro_parede.mp4',
+            },
+            {
+                nome: 'Panturrilha sentada (peso no colo)',
+                repeticoes: '20',
+                series: '4',
+                peso: '20 kg',
                 descanso: '30 segundos',
-                video: '../galeria/videos/per_abd_maqu.mp4',
+                video: '../galeria/videos/pant_sent.mp4',
             },
-            
             {
-                nome: 'Leg Pres Horizontal',
+                nome: 'Agachamento pistol apoiado no espaldar',
+                repeticoes: '8',
+                series: '3',
+                peso: '0',
+                descanso: '30 segundos',
+                video: '../galeria/videos/per_pistol.mp4',
+            },
+            {
+                nome: 'Agachamento lateral no banco com caneleira',
+                repeticoes: '12',
+                series: '3',
+                peso: '3 kg',
+                descanso: '40 segundos',
+                video: '../galeria/videos/per_agac_uni_banco.mp4',
+            },
+            {
+                nome: 'Agachamento sentando no banco com barra nas costas',
+                repeticoes: '12',
+                series: '3',
+                peso: '10 kg cd',
+                descanso: '20 segundos',
+                video: '../galeria/videos/agachamento.MOV',
+            },
+            {
+                nome: 'Biceps rosca martelo',
                 repeticoes: '10',
                 series: '3',
-                peso: ' kg',
-                descanso: '50 segundos',
-                video: '../galeria/videos/per_leg_hor.mp4',
+                peso: '7 kg cd',
+                descanso: '30 segundos',
+                video: '../galeria/videos/martelo.MOV',
             },
-           
+            {
+                nome: 'Biceps no banco',
+                repeticoes: '15',
+                series: '2',
+                peso: '7 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/bic_banco.mp4',
+            },
+            {
+                nome: 'Remada banco unilateral',
+                repeticoes: '10',
+                series: '4',
+                peso: '10 kg',
+                descanso: '40 segundos',
+                video: '../galeria/videos/Rem_banco.MOV',
+            },
+            {
+                nome: 'Encolhimento de ombro com barra reversa',
+                repeticoes: '10',
+                series: '4',
+                peso: '1 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/cos_barra_invert.mp4',
+            },
+            {
+                nome: 'Abdominal canivete unilateral',
+                repeticoes: '15',
+                series: '4',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/videos/abd_can_uni.mp4',
+            },
+            {
+                nome: 'Abdominal elevação de perna',
+                repeticoes: '15',
+                series: '4',
+                peso: '0 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/abd_perna.MOV',
+            },
            
         ];
     </script>
@@ -117,7 +154,7 @@
 
         <main>
             <section class="contato ">
-                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino C</header>
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino A</header>
 
 
                 <div class="container">
@@ -139,7 +176,6 @@
                     </form>
                 </div>
             </section>
-
         <section class="contato bloco ">
             <header class="contato_cabecalho bloco_cabecalho_degrade">Entre em contato</header>
             <div class="contato_form">
