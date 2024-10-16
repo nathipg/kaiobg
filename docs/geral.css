@@ -117,11 +117,15 @@ img{
 .perguntas{
     align-items: center;
     height: 48px;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 0 12px;    
+}
+.acompanhe{
+    color: white;
 }
 .pergunta{/*botao do forms*/
     max-width: 300px;
@@ -131,9 +135,9 @@ img{
     margin-top: 20px;
     color:rgb(255, 255, 255);
     padding: 10px 30px;
-    border: 2px solid #47488fe0;
+    border: 2px solid #ffff;
     display: block;
-    background-color: #3a3b88e0;
+    background-color: #521118;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 400;
@@ -234,7 +238,7 @@ img{
 .bloco {
     border-radius: 4px;
     overflow: hidden;
-    background-color: #DDA1C6;
+    background-color: #722f37;
     /*border: 1px solid #bdaa00;*/
     position: relative;
 }
@@ -247,7 +251,7 @@ img{
 }
 
 .bloco_cabecalho_degrade {
-    background-image: linear-gradient(90deg,#ffffff,#ff66c4,  #5170ff);
+    background-image: linear-gradient(90deg,#ffffff,#ebe9e4ec,  #722f37);
 }
 .bloco_cabecalho_degrade-1 {
     background-image: linear-gradient(270deg, #DBD4D4, #ffffff);
