@@ -34,7 +34,7 @@ img{
 }
 /* Cabeçalho  */
 .cabecalho {
-    background-color: #DDA1C6;
+    background-color: #722f37;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -57,12 +57,12 @@ img{
     padding-top: 12px;
     padding-bottom: 12px;
     font-weight: bold;
-    color: black;   
+    color: white;   
     flex-shrink: 0;   
 }
 
 .cabecalho_link:hover {
-    background-color: #ffffff;
+    background-color: #521118;
     border-radius: 2px;
 }
 

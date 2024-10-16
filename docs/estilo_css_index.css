@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-  background-color:#8C8ED9;
+  background-color:#ffffff;
   color: black;
   height: unset;
   /*width: fit-content;*/
@@ -83,7 +83,7 @@
   text-align: center;
   align-content: center;
   margin-top: 100px;
-  color:#e71515;
+  color:#9cae9f;
   -webkit-text-stroke-width: 0.5px; /* largura da borda */
   -webkit-text-stroke-color: rgb(255, 255, 255); /* cor da borda */
 }
@@ -96,7 +96,7 @@
   align-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color:#f50808;
+  color:#fff;
   /* -webkit-text-stroke-width: 0.5px; /* largura da borda */
   /*-webkit-text-stroke-color: rgb(203, 15, 15); cor da borda */
 }
@@ -105,7 +105,7 @@
 
 .planos {
   height: unset;
-  background-color: #ffffff;
+  background-color: #722f37;
 }
 
 .planos_cabecalho {
