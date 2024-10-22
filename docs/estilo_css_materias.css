@@ -45,7 +45,7 @@ p{
 .intermedio2 { /** testando na página dos artigos**/
     text-align: center;
     width: 35%;
-    justify-items: center;
+    /* justify-items: center; */
     border-radius: 30px;
     margin-right: auto;
     margin-left: auto;
