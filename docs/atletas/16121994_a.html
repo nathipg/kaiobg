@@ -19,7 +19,39 @@
     <script>
         // No futuro isso pode ser carregado por uma API, por enquanto está mockado aqui
         var treino = [
-        {
+            {
+                nome: 'Tocar a mão nas costas',
+                repeticoes: '10',
+                series: '1',
+                peso: '0 kg cd',
+                descanso: '20 segundos',
+                video: '../galeria/videos/omb_troca.mp4',
+            },
+            {
+                nome: 'Rotacionar o ombro',
+                repeticoes: '20',
+                series: '1',
+                peso: '1 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/omb_rot.mp4',
+            },
+            {
+                nome: 'Mobilidade mão no pé',
+                repeticoes: '10',
+                series: '2',
+                peso: '0 kg cd',
+                descanso: '20 segundos',
+                video: '../galeria/videos/mob_mao_pe.mp4',
+            },
+            {
+                nome: 'Mobilidade de quadril 90 graus',
+                repeticoes: '10',
+                series: '1',
+                peso: '0 kg',
+                descanso: '20 segundos',
+                video: '../galeria/videos/quadril90graus.mp4',
+            }, 
+            {
                 nome: 'Supino com halter no banco inclinado',
                 repeticoes: '8',
                 series: '4',
@@ -28,37 +60,53 @@
                 video: '../galeria/videos/pei_sup_banc.mp4',
             },
             {
-                nome: 'Triceps francês',
+                nome: 'Supino na polia',
+                repeticoes: '10',
+                series: '4',
+                peso: '15 kg cd lado',
+                descanso: '30 segundos',
+                video: '../galeria/videos/pei_sup_maq.mp4',
+            },
+            {
+                nome: 'Triceps corda',
                 repeticoes: '10',
                 series: '3',
-                peso: '9 kg ',
+                peso: '20 kg ',
                 descanso: '20 segundos',
-                video: '../galeria/videos/tri_fran_halt.mp4',
+                video: '../galeria/videos/tri_corda.mp4',
             },
             {
-                nome: 'Remada na máquina',
+                nome: 'Triceps testa com a corda na polia',
+                repeticoes: '10',
+                series: '3',
+                peso: '20 kg ',
+                descanso: '20 segundos',
+                video: '../galeria/videos/tri_tes_cor.mp4',
+            },
+            {
+                nome: 'Flexão de braço',
+                repeticoes: '20',
+                series: '1',
+                peso: '0',
+                descanso: '20 segundos',
+                video: '../galeria/embreve.mp4',
+            },
+            {
+                nome: 'Elevação frontal na polia',
+                repeticoes: '8',
+                series: '3',
+                peso: '5 kg',
+                descanso: '30 segundos',
+                video: '../galeria/videos/elev_front_polia.mp4',
+            },
+            {
+                nome: 'Desenvolvimento na barra',
                 repeticoes: '12',
                 series: '3',
-                peso: '15 kg cd lado',
-                descanso: '20 segundos',
-                video: '../galeria/videos/cos_rem_maqu_sent.mp4',
-            },
-            {
-                nome: 'Rosca Scott na barra W',
-                repeticoes: '8',
-                series: '3',
-                peso: '15 kg',
+                peso: '3 kg cd lado',
                 descanso: '40 segundos',
-                video: '../galeria/videos/bic_scott_maqu.mp4',
-            },
-            {
-                nome: 'Elevação frontal alternado',
-                repeticoes: '8',
-                series: '3',
-                peso: '5 kg cd lado',
-                descanso: '30 segundos',
-                video: '../galeria/videos/omb_elev_alt.mp4',
-            },
+                video: '../galeria/videos/omb_elev_sent.mp4',
+            },    
             {
                 nome: 'Flexora na polia deitada no banco',
                 repeticoes: '12',
@@ -71,37 +119,43 @@
                 nome: 'Coice na polia',
                 repeticoes: '12',
                 series: '3',
-                peso: '25 kg ',
+                peso: '30 kg ',
                 descanso: '30 segundos',
                 video: '../galeria/videos/per_coice_maq.mp4',
             },
             {
-                nome: 'Agachamento Terra',
-                repeticoes: '10',
+                nome: 'Deslocamento lateral com elástico',
+                repeticoes: '12',
                 series: '3',
-                peso: '12 kg cd lado',
+                peso: '0 kg ',
                 descanso: '30 segundos',
-                video: '../galeria/videos/per_terra.mp4',
+                video: '../galeria/videos/desl_lat.mp4',
             },
             {
-                nome: 'Abdutora na máquina',
+                nome: 'Elevação pélvica',
                 repeticoes: '15',
                 series: '3',
-                peso: '55 kg',
+                peso: '20 kg cd lado',
                 descanso: '30 segundos',
-                video: '../galeria/videos/per_abd_maq.mp4',
+                video: '../galeria/videos/per_elev_pelvic.mp4',
             },
             {
-                nome: 'Abdominal Remador',
-                repeticoes: '14',
+                nome: 'Stiff na barra',
+                repeticoes: '10',
+                series: '3',
+                peso: '15 kg cd lado',
+                descanso: '30 segundos',
+                video: '../galeria/videos/per_stiff_bar.mp4',
+            },
+            {
+                nome: 'Abdominal Remador (5) + Canivete (5)',
+                repeticoes: '8',
                 series: '4',
                 peso: '0',
                 descanso: '20 segundos',
-                video: '../galeria/videos/1.11.mp4',
+                video: '../galeria/embreve.mp4',
             },
                 
-        
-           
         ];
     </script>
 </head>
@@ -124,7 +178,7 @@
 
         <main>
             <section class="contato ">
-                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino Perna</header>
+                <header class="contato_cabecalho bloco_cabecalho_degrade">Treino A</header>
 
 
                 <div class="container">
