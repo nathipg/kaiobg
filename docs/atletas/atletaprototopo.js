@@ -69,7 +69,7 @@ function listarExercicios() {
           <th>Descanso</th>
           <th id="nselecao${indexEl}" class="">
             <label>
-              <input type="radio" name="${tratarNomeExercicio(exercicio.nome)}" value="Não treinei"> Não treinei
+              <input form="formularioCheckin" type="radio" name="${tratarNomeExercicio(exercicio.nome)}" value="Não treinei"> Não treinei
             </label>
           </th>
         </tr>
@@ -83,7 +83,7 @@ function listarExercicios() {
           <td>&nbsp;${exercicio.descanso}</td>
           <td id="selecao${indexEl}" class="">
             <label>
-              <input type="radio" name="${tratarNomeExercicio(exercicio.nome)}" value="Treinei"> Treinei
+              <input form="formularioCheckin" type="radio" name="${tratarNomeExercicio(exercicio.nome)}" value="Treinei"> Treinei
             </label>
           </td>
         </tr>
