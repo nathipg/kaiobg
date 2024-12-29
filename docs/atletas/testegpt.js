@@ -1,5 +1,34 @@
 document.addEventListener("DOMContentLoaded", () => {
     const atletas = {
+        "gabriel_peagno": {
+            nome: "Gabriel Peagno",
+            foto: "../galeria/gadiel.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "2003-02-16",
+            plano: "Consultoria de treino",
+            frequencia: "4x semana",
+            numero: "#1/2024",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "29/12",
+            desempenho: "0/10",
+            
+            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+            treinos: [
+                {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel.peagno_a"},
+                {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel.peagno_b"},
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel.peagno_c"},
+                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "nathipg": {
             nome: "Nathália Pissuti",
             foto: "../galeria/nathalia.jpg",
@@ -66,6 +95,34 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
             treinos: [
                 { texto: "Treino Fim de ano", url: "http://kaioguerrero.com/atletas/Simioni_a" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "rafmbr": {
+            nome: "Rafael de Menezes Barros",
+            foto: "../galeria/rafael.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1988-08-09",
+            plano: "Consultoria de treino",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Grandes resultados começam com uma simples escolha",
+            dataProducao: "29/12",
+            desempenho: "0/10",
+
+            objetivo_principal: "Condicionamento físico geral",
+            treinos: [
+                {texto: "Treino A - Agora vai", url: "http://kaioguerrero.com/atletas/rafmbr_a" },
+                {texto: "Treino B - Bora que dá", url: "http://kaioguerrero.com/atletas/rafmbr_b"},
+                {texto: "Treino C - Cê consegue", url: "http://kaioguerrero.com/atletas/rafmbr_c"},
                 
             ],
             testes:[
