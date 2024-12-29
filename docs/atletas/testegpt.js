@@ -1,39 +1,75 @@
 document.addEventListener("DOMContentLoaded", () => {
     const atletas = {
-        "carolina-uliana": {
-            nome: "Carolina Uliana",
-            foto: "../assets/carol.jpg",
+        "nathipg": {
+            nome: "Nathália Pissuti",
+            foto: "../galeria/nathalia.jpg",
+            grafico:"../galeria/testes.png",
             nascimento: "1996-05-12",
-            plano: "Presencial 1x por semana / 2x lição de casa",
-            frequencia: "3x semana",
+            plano: "Presencial 1x por semana / 3x lição de casa",
+            frequencia: "4x semana",
             numero: "#1/2024",
-            foco: "Saúde e emagrecimento",
-            dataProducao: "10/01",
-            links: [
-                { texto: "Treino Academia A", url: "http://kaioguerrero.com/atletas/5614_a" },
-                { texto: "Treino Academia B", url: "http://kaioguerrero.com/atletas/5614_b" }
-            ]
-        },
-        "joao-silva": {
-            nome: "João Silva",
-            foto: "../galeria/tacila.png",
-            grafico:"../galeria/bia2.png",
-            nascimento: "1989-11-20",
-            plano: "Treino remoto 3x por semana",
-            frequencia: "3x semana",
-            numero: "#2/2024",
-            foco: "Aumento de massa muscular",
-            dataProducao: "15/02",
+            foco: "Bora lá que você consegue",
+            dataProducao: "29/12",
+            desempenho: "5/10",
             
-
-            objetivo_principal: "Ganho de massa magra",
+            objetivo_principal: "Fortalecimento geral, fortalecimento específico de músculos para forçar menos o joelho, melhora da postura",
             treinos: [
-                { texto: "Treino Online A", url: "http://kaioguerrero.com/atletas/5614_a" },
-                { texto: "Treino Online B", url: "http://kaioguerrero.com/atletas/joao_b" },
-                { texto: "Testes", url: "http://kaioguerrero.com/atletas/5614_a" }
+                { texto: "Treino Adaptado", url: "http://kaioguerrero.com/atletas/nathipg_a" },
+                
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/atletas/5614_a"}
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Marinaggm": {
+            nome: "Marina Maza",
+            foto: "../galeria/mazza.png",
+            grafico:"../galeria/mazzat.png",
+            nascimento: "1990-02-16",
+            plano: "Presencial 2x por semana/ 2x academia",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Cuidado com a lombar",
+            dataProducao: "29/12",
+            desempenho: "5/10",
+            objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
+            treinos: [
+                { texto: "Treino Fim de ano", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Simioni": {
+            nome: "Marcelo  Simioni",
+            foto: "../galeria/simioni.png",
+            grafico:"../galeria/simionit.png",
+            nascimento: "1990-07-28",
+            plano: "Presencial 2x por semana/ 2x academia",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Para de ficar lavando couve",
+            dataProducao: "29/12",
+            desempenho: "5/10",
+
+            objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
+            treinos: [
+                { texto: "Treino Fim de ano", url: "http://kaioguerrero.com/atletas/Simioni_a" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -81,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><b>Frequência:</b> ${atleta.frequencia}</p>
                 <p><b>Treino Número:</b> ${atleta.numero}</p>
                 <p><b>Foco:</b> ${atleta.foco}</p>
-                <p><b>Produzido em:</b> ${atleta.dataProducao}</p>
+                <p><b>Produção:</b> ${atleta.dataProducao}</p>
                 <div class="acoes">
                     ${atleta.treinos.map(link => `<a href="${link.url}" class="botao">${link.texto}</a>`).join('')}
                 </div>
@@ -99,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="info">
                 
                 <p> ${atleta.objetivo_principal}</p>
-                <p><b>Produzido em:</b> ${atleta.dataProducao}</p>
+                <p><b>Desempenho no último mês:</b> ${atleta.desempenho}</p>
                 <div class="acoes">
                     ${atleta.testes.map(link => `<a href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
                 </div>
