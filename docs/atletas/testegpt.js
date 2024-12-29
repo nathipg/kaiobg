@@ -25,11 +25,12 @@ document.addEventListener("DOMContentLoaded", () => {
             foco: "Aumento de massa muscular",
             dataProducao: "15/02",
             
+            
             objetivo_principal: "Ganho de massa magra",
             treinos: [
                 { texto: "Treino Online A", url: "http://kaioguerrero.com/atletas/5614_a" },
                 { texto: "Treino Online B", url: "http://kaioguerrero.com/atletas/joao_b" },
-                { texto: "Testes", url: "http://kaioguerrero.com/atletas/joao_b" }
+                { texto: "Testes", url: "http://kaioguerrero.com/atletas/5614_a" }
             ],
             testes:[
                 {texto: "Teste", url: "http://kaioguerrero.com/atletas/5614_a"}
@@ -46,10 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../index.html";
         return;
     }
-    if (!atleta.testes) {
-        window.location.href = "../index.html";
-        return;
-    }
+    
     const calcularIdade = (nascimento) => {
         const dataNascimento = new Date(nascimento);
         const hoje = new Date();
@@ -96,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p> ${atleta.objetivo_principal}</p>
                 <p><b>Produzido em:</b> ${atleta.dataProducao}</p>
                 <div class="acoes">
-                    ${atleta.testes.map(link => `<button href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
+                    ${atleta.testes.map(link => `<a href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
                 </div>
                 <img src="${atleta.grafico}" alt="Foto do atleta ${atleta.nome}" class="foto">
                 
@@ -110,12 +108,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const atletaMain = document.getElementById("atletaMain");
     atletaMain.innerHTML = atletaHTML;
 
-   
-
-    const card = document.querySelector(".card");
-    card.addEventListener("click", () => {
-        card.classList.toggle("flipped");
-    });
+    // const card = document.querySelector(".card");
+    // card.addEventListener("click", () => {
+    //     card.classList.toggle("flipped");
+    // });
     
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const card = document.querySelector(".card");
+    const link = card.querySelector("a");  // Selecionando o link dentro do card
+
+    // Quando o link for clicado, impedir que o card vire e acessar diretamente o link
+    if (link) {
+        link.addEventListener("click", function (e) {
+            e.stopPropagation();  // Previne que o evento de clique no link propague para o card (impedindo o flip)
+            window.location.href = link.href;  // Redireciona diretamente para o link
+        });
+    }
+
+    // Agora o card realiza o flip em qualquer clique que não seja no link
+    card.addEventListener("click", (e) => {
+        if (!e.target.closest("a")) {  // Se o clique não for dentro de um link, realiza o flip
+            card.classList.toggle("flipped");
+        }
+    });
+});

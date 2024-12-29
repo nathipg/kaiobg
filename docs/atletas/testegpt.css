@@ -37,7 +37,6 @@ main {
 .card {
     width: 300px;
     max-width: 600px; 
-   
     background: #f8f8f8;
     padding: 2rem;
     margin: 10px;
@@ -126,7 +125,7 @@ main {
     border-radius: 5px;
     width: 60%;
 }
-.acoes button {
+.card-back .acoes a {
     display: block;
     background: #722f37;
     color: white;
