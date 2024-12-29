@@ -57,7 +57,6 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 1rem;
     object-fit: cover;
 }
 .card-back img {
@@ -136,6 +135,17 @@ main {
     width: 60%;
 }
 
+.whatss {
+    display: block;
+    background: #2dd26a;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 60%;
+    
+}
 
 
 
@@ -155,8 +165,8 @@ main {
 }
 
 .card-back .flip-indicator {
-    color: #f15b5b;
-    bottom: -10px;
+    color: #070707;
+    margin-bottom: -10px;
     
 }
 

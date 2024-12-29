@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             foco: "Aumento de massa muscular",
             dataProducao: "15/02",
             
-            
+
             objetivo_principal: "Ganho de massa magra",
             treinos: [
                 { texto: "Treino Online A", url: "http://kaioguerrero.com/atletas/5614_a" },
@@ -33,8 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Testes", url: "http://kaioguerrero.com/atletas/5614_a" }
             ],
             testes:[
-                {texto: "Teste", url: "http://kaioguerrero.com/atletas/5614_a"}
-            ]
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/atletas/5614_a"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
             
         }
     };
@@ -82,8 +86,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${atleta.treinos.map(link => `<a href="${link.url}" class="botao">${link.texto}</a>`).join('')}
                 </div>
                 </br>
+               
+                
+</a>
             </div>
-            <div class="flip-indicator">↩ Girar</div>
+            <div class="flip-indicator">↩ </div>
         </div>
         <div class="card-back">
         <header class="card-header">
@@ -97,9 +104,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${atleta.testes.map(link => `<a href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
                 </div>
                 <img src="${atleta.grafico}" alt="Foto do atleta ${atleta.nome}" class="foto">
-                
+                 <div class=" whatss">
+                    ${atleta.whats.map(link => `<a href="${link.url}" class="botao">${link.texto}</a>`).join('')}
+                </div>
             </div>
-            <div class="flip-indicator">↩ Voltar</div>
+           
+            <div class="flip-indicator">↩ </div>
         </div>
     </div>
 </div>
