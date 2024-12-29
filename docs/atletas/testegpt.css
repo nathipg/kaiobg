@@ -1,0 +1,275 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    padding: 3px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #343451, #000000);
+    color: #333;
+    
+}
+
+main {
+    display: flex;              /* Centraliza o conteúdo dentro do main */
+    justify-content: center;    /* Centraliza horizontalmente */
+    /* align-items: center;        Centraliza verticalmente */
+    height: calc(100vh - 100px); /* Ocupa o restante da altura da tela, considerando o cabeçalho e rodapé */
+    margin: 20px 0;             /* Margens para que o conteúdo não fique colado no topo */
+}
+
+
+/* Cabeçalho */
+.cabecalho {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #722f37;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    overflow-x: auto;
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.cabecalho-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* #atletaMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+} */
+/* Conteúdo Principal */
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.card {
+    width: 300px;
+    max-width: 600px; 
+    background: #f8f8f8;
+    padding: 2rem;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+.card-body {
+    margin-bottom: 30px;
+}
+
+.card-body img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+.card-back img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+.card-container {
+    perspective: 1000px;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    max-width: 600px;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+
+}
+
+.card-front {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.card-back {
+    background-color: #f8f8f8;
+    transform: rotateY(180deg);
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px  #ccc;
+}
+
+
+/* Virar o card */
+.card-container .card.flipped {
+    transform: rotateY(180deg); /* Roda 180 graus */
+}
+
+/* Botões de Ações */
+.acoes a {
+    display: block;
+    background: #313233;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    width: 60%;
+}
+.acoes button {
+    display: block;
+    background: #722f37;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    width: 60%;
+}
+
+
+/* Sidebar Responsivo */
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #722f37;
+    color: white;
+    transition: left 0.3s ease;
+    padding: 1rem;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral a {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #62242c;
+    padding: 10px;
+}
+
+.menu-lateral.active {
+    left: 0;
+}
+.menu-lateral :hover{
+    background-color: #f4f4f9;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 150;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+/* Indicador para virar o card */
+.flip-indicator {
+    position: absolute;
+    bottom: 10px; /* Ajuste conforme necessário */
+    right: 10px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.card-front .flip-indicator {
+    color: #0a0a0a;
+}
+
+.card-back .flip-indicator {
+    color: #f15b5b;
+    bottom: -10px;
+    
+}
+
+.flip-indicator:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cabecalho-menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    
+}

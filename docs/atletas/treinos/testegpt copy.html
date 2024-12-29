@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Treino</title>
+    <link rel="stylesheet" href="treinos.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Plataforma de Treino</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Meus Treinos</a>
+        <a href="#">Progresso</a>
+        <a href="#">Perfil</a>
+    </nav>
+    <main>
+        <h2>Treino A</h2>
+        <div class="exercise-list" id="exercise-list">
+            <!-- Os exercícios serão gerados dinamicamente -->
+        </div>
+        
+    </main>
+
+    <div id="overlay"></div>
+    <div id="video-modal">
+        <span class="close-btn" onclick="closeVideo()">Fechar</span>
+        <video controls id="exercise-video"></video>
+    </div>
+
+    <footer>
+        <p>Plataforma de Treino &copy; 2024</p>
+    </footer>
+    <script src="exercises.js"></script>
+    <script src="treinos.js"></script>
+    
+    
+</body>
+</html>
