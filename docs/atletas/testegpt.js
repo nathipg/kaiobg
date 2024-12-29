@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
             treinos: [
-                {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel.peagno_a"},
-                {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel.peagno_b"},
-                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel.peagno_c"},
+                {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
+                {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
                 { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
                 
             ],
