@@ -91,7 +91,7 @@ form .input-group input:focus{
 form .input-group button{
     width: 60%;
     height: 47px;
-    background: #FF008A;
+    background: #722f37;
     border-radius: 20px;
     outline: none;
     border: none;
@@ -107,7 +107,7 @@ form .input-group button{
     width: 60%;
     max-width: 300px;
     padding: 10px 20px;    
-    background: #FF008A;
+    background: #722f37;
     border-radius: 20px;
     outline: none;
     border: none;
