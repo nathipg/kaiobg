@@ -6,14 +6,14 @@
     --third-color:#722f37;
     --forth-color:#0b0b0b;
     --quinth-color:#534200;
-    --background-color: #f4f4f4;
+    --background-color: #17223b;
     --text-color: #000000;
     --white-color: #fff;
     --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
   
-  
+  /* #f4f4f4 */
   
   /* Estilos Globais */
   * {
@@ -106,7 +106,7 @@
   }
   /* Header #3f51b5 */
   header {
-    background: linear-gradient(180deg, #521118, #cdd3d5);
+    background: linear-gradient(180deg, #521118, #141d32);
     color: var(--black-color);
     padding: 10px 0px;
     margin-bottom: 20px;
@@ -126,6 +126,9 @@
   
   .sqr1{
     background-color: #f3f4f6;
+}
+.sqr2{
+  background-color: #fc4b5d;
 }
         
         /* Estilo para alinhar caixas lado a lado */
@@ -259,13 +262,13 @@
     transition: all 0.3s ease;
   }
   .depoimento {
-    background-color: #f3f4f6;
-    border: 2px solid #534200;
+    background-color: #521118;
+    border: 2px solid #971b1b;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
     font-size: 0.9rem;
-    color: #333;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease;
   }
