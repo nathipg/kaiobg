@@ -94,8 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
             treinos: [
-                { texto: "Treino Fim de ano", url: "http://kaioguerrero.com/atletas/Simioni_a" },
-                
+                { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Simioni_a" },
+                { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
             ],
             testes:[
                 {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
