@@ -43,8 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             objetivo_principal: "Fortalecimento geral, fortalecimento específico de músculos para forçar menos o joelho, melhora da postura",
             treinos: [
-                { texto: "Treino Adaptado", url: "http://kaioguerrero.com/atletas/nathipg_a" },
-                
+                { texto: "Treino A", url: "http://kaioguerrero.com/atletas/nathipg_a" },
+                { texto: "Treino B", url: "http://kaioguerrero.com/atletas/nathipg_b" },
+                { texto: "Treino Todo dia senão morre", url: "http://kaioguerrero.com/atletas/nathipg_c" },
             ],
             testes:[
                 {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
@@ -68,8 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
             desempenho: "5/10",
             objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
             treinos: [
-                { texto: "Treino Fim de ano", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
-                
+                { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
+                { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
             ],
             testes:[
                 {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
