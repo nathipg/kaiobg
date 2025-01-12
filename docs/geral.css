@@ -8,7 +8,7 @@
     position: relative;
 }
 .background{
-    background-color: #DBD4D4	;
+    background-color: #141d31;
 }
 
 
@@ -251,7 +251,7 @@ img{
 }
 
 .bloco_cabecalho_degrade {
-    background-image: linear-gradient(90deg,#ffffff,#ebe9e4ec,  #722f37);
+    background-image: linear-gradient(90deg,#ffffff,#ebe9e4ec,  #141d31);
 }
 .bloco_cabecalho_degrade-1 {
     background-image: linear-gradient(270deg, #DBD4D4, #ffffff);
