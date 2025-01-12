@@ -1,5 +1,85 @@
 document.addEventListener("DOMContentLoaded", () => {
     const atletas = {
+        "najupma": {
+            nome: "Ana Julia Marques",
+            foto: "../galeria/naju.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1994-10-06",
+            plano: "Presencial 2x/semana",
+            frequencia: "5x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "11/1",
+            
+            objetivo_principal: "Fortalecer, melhorar saúde física e mental e aumentar força",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/najupma_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/najupma_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/najupma_c"},
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "cauesj": {
+            nome: "Cauê da Silva",
+            foto: "../galeria/caue.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1997-08-05",
+            plano: "Presencial 2x/semana",
+            frequencia: "5x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "11/1",
+            
+            objetivo_principal: "Fortalecer ombro e joelho, definição e prevenção de lesão",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/cauesj_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/cauesj_b"},
+                {texto: "Treino  Basquete", url: "http://kaioguerrero.com/atletas/cauesj_ba"},
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Biagsilva": {
+            nome: "Beatriz Gonçalves Silva",
+            foto: "../galeria/bia.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1994-09-02",
+            plano: "Presencial 2x/semana",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "Reclama de fazer braço, mas faz",
+            dataProducao: "11/1",
+            
+            objetivo_principal: "Fortalecer ombro, definição e ganho de massa",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Biagsilva_a"},
+               
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "gabriel_peagno": {
             nome: "Gabriel Peagno",
             foto: "../galeria/gadiel.png",
@@ -7,10 +87,9 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "2003-02-16",
             plano: "Consultoria de treino",
             frequencia: "4x semana",
-            numero: "#1/2024",
+            numero: "#1/2025",
             foco: "Constância é a chave para o resultado",
             dataProducao: "29/12",
-            desempenho: "0/10",
             
             objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
             treinos: [
@@ -29,6 +108,116 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Bruna8178": {
+            nome: "Bruna Alves de Freitas",
+            foto: "../galeria/brunaa.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1993-05-03",
+            plano: "Consultoria de corrida",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Bora correr atrás dos objetivos",
+            dataProducao: "11/1",
+            
+            objetivo_principal: "Melhorar o condicionamento de corrida",
+            treinos: [
+                {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1sz207z8bC9OmVQn7XUtrCiGXEUvzdIBPNJZuBFMZwg4/edit?usp=sharing"},
+                
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Feaugar": {
+            nome: "Felipe Augusto",
+            foto: "../galeria/felipe.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1989-06-18",
+            plano: "Consultoria de treino - basquete",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "29/12",
+            
+            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+            treinos: [
+                {texto: "Treino Mobilidade", url: "http://kaioguerrero.com/atletas/Feaugar_a"},
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/Feaugar_b"},
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "gabriel_peagno": {
+            nome: "Gabriel Peagno",
+            foto: "../galeria/gadiel.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "2003-02-16",
+            plano: "Consultoria de treino",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "29/12",
+            
+            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+            treinos: [
+                {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
+                {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
+                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "jessica_calixto": {
+            nome: "Jessica Calixto",
+            foto: "../galeria/jessica.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1992-08-18",
+            plano: "Consultoria de treino e corrida",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "11/01",
+            
+            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/jessica_calixto_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/jessica_calixto_b"},
+                {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/jessica_calixto_c"},
+                {texto: "Treino especial joelho", url: "http://kaioguerrero.com/atletas/jessica_calixto_e"},
+                {texto: "Treino faça todo dia", url: "http://kaioguerrero.com/atletas/jessica_calixto_f"},
+                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1ox9xsHunk8OR5OHnWwRVvSITRzZZxZhRkwqHZTxFCPo/edit?usp=sharing" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "nathipg": {
             nome: "Nathália Pissuti",
             foto: "../galeria/nathalia.jpg",
@@ -36,10 +225,9 @@ document.addEventListener("DOMContentLoaded", () => {
             nascimento: "1996-05-12",
             plano: "Presencial 1x por semana / 3x lição de casa",
             frequencia: "4x semana",
-            numero: "#1/2024",
+            numero: "#1/2025",
             foco: "Bora lá que você consegue",
             dataProducao: "29/12",
-            desempenho: "5/10",
             
             objetivo_principal: "Fortalecimento geral, fortalecimento específico de músculos para forçar menos o joelho, melhora da postura",
             treinos: [
@@ -66,7 +254,6 @@ document.addEventListener("DOMContentLoaded", () => {
             numero: "#1/2025",
             foco: "Cuidado com a lombar",
             dataProducao: "29/12",
-            desempenho: "5/10",
             objetivo_principal: "Treinos focados em emagrecimento, saúde e condicionamento",
             treinos: [
                 { texto: "Treino A", url: "http://kaioguerrero.com/atletas/Marinaggm_a" },
@@ -81,9 +268,34 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO": {
+            nome: "Marilia Pimenta",
+            foto: "../galeria/marilia.jpg",
+            grafico:"../galeria/mazzat.png",
+            nascimento: "1995-02-05",
+            plano: "Planilha de treino",
+            frequencia: "4x semana",
+            numero: "#1/2025",
+            foco: "Cuidado com a execução de exercício",
+            dataProducao: "11/1",
+            objetivo_principal: "Treinos focados em fortalecimento, reabilitação, saúde e condicionamento",
+            treinos: [
+                { texto: "Treino A", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_a" },
+                { texto: "Treino B", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_b" },
+                { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "Simioni": {
             nome: "Marcelo  Simioni",
-            foto: "../galeria/simioni.png",
+            foto: "../galeria/simioni.jpeg",
             grafico:"../galeria/simionit.png",
             nascimento: "1990-07-28",
             plano: "Presencial 2x por semana/ 2x academia",
@@ -91,7 +303,7 @@ document.addEventListener("DOMContentLoaded", () => {
             numero: "#1/2025",
             foco: "Para de ficar lavando couve",
             dataProducao: "29/12",
-            desempenho: "5/10",
+            
 
             objetivo_principal: "Treinos focados em emagrecimento, saúde e prevenção de lesão",
             treinos: [
@@ -117,7 +329,6 @@ document.addEventListener("DOMContentLoaded", () => {
             numero: "#1/2025",
             foco: "Grandes resultados começam com uma simples escolha",
             dataProducao: "29/12",
-            desempenho: "0/10",
 
             objetivo_principal: "Condicionamento físico geral",
             treinos: [
@@ -193,7 +404,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="info">
                 
                 <p> ${atleta.objetivo_principal}</p>
-                <p><b>Desempenho no último mês:</b> ${atleta.desempenho}</p>
                 <div class="acoes">
                     ${atleta.testes.map(link => `<a href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
                 </div>
