@@ -160,6 +160,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "iwagaki": {
+            nome: "Felipe Braga",
+            foto: "../galeria/braga.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1988-07-01",
+            plano: "Consultoria de treino - basquete",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Constância é a chave para o resultado",
+            dataProducao: "29/12",
+            
+            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
+            treinos: [
+                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/iwagaki_a"},
+                {texto: "Rotina pré-jogo", url: "http://kaioguerrero.com/atletas/iwagaki_b"},
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "gabriel_peagno": {
             nome: "Gabriel Peagno",
             foto: "../galeria/gadiel.png",
@@ -207,6 +233,32 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino especial joelho", url: "http://kaioguerrero.com/atletas/jessica_calixto_e"},
                 {texto: "Treino faça todo dia", url: "http://kaioguerrero.com/atletas/jessica_calixto_f"},
                 { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1ox9xsHunk8OR5OHnWwRVvSITRzZZxZhRkwqHZTxFCPo/edit?usp=sharing" },
+                
+            ],
+            testes:[
+                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "Helen": {
+            nome: "Helen Kuhl",
+            foto: "../galeria/helen.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1994-09-20",
+            plano: "Consultoria de treino",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Cuidado com a alimentação",
+            dataProducao: "11/01",
+            
+            objetivo_principal: "Emagrecer",
+            treinos: [
+                {texto: "Treino  Braço", url: "http://kaioguerrero.com/atletas/Helen_a"},
+                {texto: "Treino  Perna", url: "http://kaioguerrero.com/atletas/Helen_b"},
                 
             ],
             testes:[
