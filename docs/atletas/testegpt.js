@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -72,35 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
-            ],
-            whats:[
-                {texto: "Fale comigo", 
-                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
-            ],
-            
-        },
-        "gabriel_peagno": {
-            nome: "Gabriel Peagno",
-            foto: "../galeria/gadiel.png",
-            grafico:"../galeria/testes.png",
-            nascimento: "2003-02-16",
-            plano: "Consultoria de treino",
-            frequencia: "4x semana",
-            numero: "#1/2025",
-            foco: "Constância é a chave para o resultado",
-            dataProducao: "29/12",
-            
-            objetivo_principal: "Criar rotina, emagrecer, fortalecer, saúde física e mental e entrar em forma",
-            treinos: [
-                {texto: "Treino funcional A", url: "http://kaioguerrero.com/atletas/gabriel_peagno_a"},
-                {texto: "Treino funcional B", url: "http://kaioguerrero.com/atletas/gabriel_peagno_b"},
-                {texto: "Treino Basquete", url: "http://kaioguerrero.com/atletas/gabriel_peagno_c"},
-                { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1iiu6vaaa4803hvowzGfDG_Pd6j_8-LPz7OWbcy2wHfQ/edit?usp=sharing" },
-                
-            ],
-            testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=498235900&single=true"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -126,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -134,6 +106,31 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Kabata": {
+            nome: "Daniel Kabata",
+            foto: "../galeria/daniel.jpg",
+            grafico:"../galeria/testes.png",
+            nascimento: "1992-03-17",
+            plano: "Presencial 2x/semana",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "Reclama de fazer perna, mas faz",
+            dataProducao: "11/1",
+            
+            objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        
         "Feaugar": {
             nome: "Felipe Augusto",
             foto: "../galeria/felipe.png",
@@ -152,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -178,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -206,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -236,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -262,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -288,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino Todo dia senão morre", url: "http://kaioguerrero.com/atletas/nathipg_c" },
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -312,7 +309,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Marinaggm_b" },
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -337,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino Faça todo dia", url: "http://kaioguerrero.com/atletas/S2_A_ALUNA_MAIS_LINDA_DO_UNIVERSO_c" },
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -363,7 +360,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { texto: "Treino B", url: "http://kaioguerrero.com/atletas/Simioni_b" },
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -390,7 +387,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 
             ],
             testes:[
-                {texto: "Teste detalhado", url: "http://kaioguerrero.com/index"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
