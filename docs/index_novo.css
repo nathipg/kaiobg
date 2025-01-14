@@ -26,13 +26,24 @@ body {
     display: flex;
     flex-direction: column;
 }
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Garante que os links herdem a cor do botão */
+}
 
+a:visited {
+    color: inherit; /* Remove cor específica de links visitados */
+}
 .kaio{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.dourado{
+    color: #11cf1bf3;
+    /* -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #ffffff; */
+}
 h1, h2 {
     text-align: center;
     color: white;
@@ -146,7 +157,7 @@ header {
 
 .buttons button, .btn-primary {
     padding: 10px 20px;
-    background: #007bff;
+    background: #28a745;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -155,7 +166,41 @@ header {
     text-decoration: none;
     display: inline-block;
 }
+.bt_1 {
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.button1 {
+    background-color: #521118; /* Cor de fundo inicial */
+    border: 2px solid #ffffff; /* Borda branca */
+    margin: 10px 5px; /* Espaçamento ao redor do botão */
+    color: #ffffff; /* Cor do texto */
+    padding: 12px 25px;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500; /* Texto levemente em negrito */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Adiciona transições suaves */
+}
 
+.button1:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; /* Cursor diferenciado para desativado */
+}
+
+.button1:hover {
+    background-color: #ffffff; /* Cor de fundo no hover */
+    color: #521118; /* Cor do texto no hover */
+    border-color: #521118; /* Alterar a borda no hover */
+    transform: scale(1.05); /* Aumenta levemente no hover */
+}
 /* Grade de 3 colunas */
 .grid-3 {
     display: grid;
@@ -209,32 +254,20 @@ header {
     margin: 20px auto;
     padding: 20px;
 }
-.button1 {
-    background-color: #521118;
-    margin-top: 10px;
-    color: var(--white-color);
-    padding: 12px 25px;
-    border: none;
-    border-radius: 1px;
-    cursor: pointer;
-    font-size: 1.1rem;
-    transition: background-color 0.3s ease;
-  }
-  .button1:disabled {
-    opacity: 0.5;
-    cursor: auto;
-  }
-  .button1:hover {
-    background-color: #ffffff; /* cor mais escura no hover */
-    color:#0b0b0b;
-    font-size: 1.1rem;
-  }
+
   .video-container{
     max-width: 500px;
   }
   .saiba_mais{
-    margin-top: 20px;
+    margin: 20px;
   }
+
+  .materias {
+    flex: 1;
+    min-width: 250px;
+    display: block;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .header{
@@ -277,6 +310,7 @@ header {
         width: 100px; /* Reduz o tamanho da imagem */
         height: 100px;
     }
+    
     
 
 @media (max-width: 480px) {
