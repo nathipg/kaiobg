@@ -31,21 +31,23 @@ a {
     color: inherit; /* Garante que os links herdem a cor do botão */
 }
 
-a:visited {
-    color: inherit; /* Remove cor específica de links visitados */
-}
+/* a:visited {
+    color: inherit; Remove cor específica de links visitados
+} */
 .kaio{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
 .dourado{
-    color: #11cf1bf3;
+    color: #EF2D56
+
+    ;
     /* -webkit-text-stroke-width: 0.5px; 
     -webkit-text-stroke-color: #ffffff; */
 }
 .subtitle{
-    color: #28a745;
+    color: #41EAD4;
 }
 h1, h2 {
     text-align: center;
@@ -110,7 +112,7 @@ header {
   }
   
 .section {
-    padding: 0px;
+    padding: 20px;
     text-align: center;
 }
 .sectionq {
@@ -160,11 +162,11 @@ header {
     margin-top: 20px;
 }
 
-.buttons button, .btn-primary {
+.btn-primary {
     padding: 10px 20px;
-    background: #28a745;
+    background: #41EAD4;
     width: 80%;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -173,9 +175,11 @@ header {
     display: inline-block;
 }
 .btn-primary:hover {
-    background-color: #fff; /* Cor de fundo no hover */
-    color: #000000; /* Cor do texto no hover */
-    border-color: #521118; /* Alterar a borda no hover */
+ 
+        background-color: #ffffff; /* Cor de fundo no hover */
+        color: #000000; /* Cor do texto no hover */
+        border-color: #28a745; /* Alterar a borda no hover */
+    
 }
 .bt_1 {
     padding: 10px 20px;
@@ -301,10 +305,27 @@ header {
     padding: 20px;
 }
 
-  .video-container{
+  /* .video-container{
     max-width: 500px;
-  }
- 
+  } */
+  .video-container {
+    
+    max-width: 1200px; /* Tamanho máximo para telas grandes */
+    margin: auto; /* Centraliza o contêiner */
+    padding: 0 10px; /* Espaçamento lateral */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Vídeo estilizado e responsivo */
+.video-container video {
+    width: 100%; /* Faz o vídeo preencher o contêiner */
+    height: auto; /* Mantém a proporção original */
+    display: block; /* Remove espaço adicional */
+    object-fit: contain; /* Certifica que o conteúdo não é cortado */
+    border-radius: 8px; /* Borda arredondada opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para destaque */
+}
+
   .saiba_mais{
     margin: 20px;
   }
@@ -342,7 +363,7 @@ header {
 
 .image-gallery img {
     width: 100%; /* Imagem ocupa toda a área do grid */
-    max-width: 150px; /* Limita a largura máxima da imagem */
+    max-width: 200px; /* Limita a largura máxima da imagem */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 10px; /* Canto arredondado, opcional */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
@@ -399,16 +420,25 @@ header {
         height: 100px;
     }
    
-    
+  
 
 @media (max-width: 480px) {
     .header{
         max-width: 480px;
     }
     .section img {
-        width: 60px; /* Reduz mais as imagens */
+        width: 80px; /* Reduz mais as imagens */
+        
+        
     }
-
+    #img-responsiva {
+        width: 60px; /* Nova largura para telas menores */
+    }
+    #parcerias{
+        width: auto; /* Reduz mais as imagens */
+        height: auto;
+    }
+ 
     .buttons button, .btn-primary {
         font-size: 12px;
         padding: 6px 12px;
@@ -422,7 +452,7 @@ header {
         padding: 10px; /* Ajusta as caixas */
     }
     .caixa{
-        padding: 0;
+        padding: 5px;
     }
     .images-section {
         flex-wrap: nowrap; /* Mantém as imagens nas laterais */
