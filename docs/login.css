@@ -20,8 +20,8 @@
 .descricao{
     text-align: justify;
     padding: 10px;
-    width: 60%;
-    margin-left: 20%;
+    /* width: 0%; */
+    margin-left: 5px;
     align-items: center;
 }
 .container {
@@ -40,9 +40,9 @@
 }
 
 .form-box{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.716);
     backdrop-filter: blur(40px);
-    padding: 30px 40px;
+    padding: 30px 5px;
     border-radius:20px;
 }
 .form-box h2{
@@ -50,7 +50,7 @@
 }
 .form-box p{
     font-weight: bold;
-    color: #3D3D3D;
+    color: #000000;
 }
 .form-box p a{
     color: #FF008A;
@@ -68,7 +68,7 @@ form .input-group{
     margin-bottom: 15px;
 }
 form .input-group label{
-    color: #3D3D3D;
+    color: #000000;
     /* font-weight: bold; */
     display: block;
     margin-bottom: 5px;
@@ -76,7 +76,7 @@ form .input-group label{
 form .input-group input{
     width: 60%;
     height: 47px;
-    background-color: rgba(255, 255, 255, 0.32);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     outline: none;
     border: 2px solid transparent;
@@ -118,8 +118,58 @@ form .input-group button{
 .entrar:hover{
     background-color: #b10b0b;
 }
-
-
+@media (max-width: 768px) {
+    form .input-group button{
+     
+        height: 47px;
+        background: #722f37;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        margin-top: 15px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    } 
+    form .input-group input{
+        height: 47px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid transparent;
+        padding: 15px;
+        font-size: 15px;
+        color: #616161;
+        transition: all 0.4s ease;
+    }
+}
+@media (max-width: 480px) {
+    form .input-group button{
+     
+        height: 47px;
+        background: #722f37;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        margin-top: 15px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    } 
+    form .input-group input{
+        height: 47px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid transparent;
+        padding: 15px;
+        font-size: 15px;
+        color: #616161;
+        transition: all 0.4s ease;
+    }
+        
+    
+}
 
 /* @media (max-width:930px) {
    
