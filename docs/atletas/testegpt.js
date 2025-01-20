@@ -106,6 +106,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             
         },
+        "Day": {
+            nome: "Dayane Cerigatto",
+            foto: "../galeria/day.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1988-07-07",
+            plano: "Consultoria de corrida",
+            frequencia: "2x semana",
+            numero: "#1/2025",
+            foco: "Bora correr atrás dos objetivos",
+            dataProducao: "20/1",
+            
+            objetivo_principal: "Melhorar o condicionamento de corrida",
+            treinos: [
+                {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1OxH1e88PG-Ean5IjOngZgcgpDarP93fmNMMRAjthqvI/edit?usp=sharing"},
+                
+                
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
         "Kabata": {
             nome: "Daniel Kabata",
             foto: "../galeria/daniel.jpg",
@@ -120,6 +146,31 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Fortalecer ombro e joelho, hipertrofia e saúde",
             treinos: [
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/Kabata_a"},
+            ],
+            testes:[
+                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+            ],
+            whats:[
+                {texto: "Fale comigo", 
+                    url: "https://wa.me/19999472024?text=Me ajuda,%20gostaria%20de%20falar%20sobre%20o%20meu%20treinamento" }
+            ],
+            
+        },
+        "llneco": {
+            nome: "Leonardo Lopes Neco",
+            foto: "../galeria/leoneco.png",
+            grafico:"../galeria/testes.png",
+            nascimento: "1994-04-03",
+            plano: "Consultoria de treino",
+            frequencia: "3x semana",
+            numero: "#1/2025",
+            foco: "A constância molda resultados",
+            dataProducao: "20/1",
+            
+            objetivo_principal: "Condicionamento físico e qualidade de vida",
+            treinos: [
+                {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/llneco_a"},
+                {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
             ],
             testes:[
                 {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
