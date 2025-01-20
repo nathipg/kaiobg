@@ -175,3 +175,10 @@ main {
     transform: scale(1.2);
 }
 
+.video {
+    width: 300px; /* Define a largura do vídeo */
+    height: auto; /* Mantém a proporção do vídeo */
+    border-radius: 8px; /* Opcional: arredondar as bordas */
+    display: block; /* Garante que o vídeo seja tratado como um bloco */
+    margin: 10px auto; /* Centraliza o vídeo horizontalmente */
+}

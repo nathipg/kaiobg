@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Melhorar o condicionamento de corrida",
             treinos: [
                 {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1sz207z8bC9OmVQn7XUtrCiGXEUvzdIBPNJZuBFMZwg4/edit?usp=sharing"},
-                
+                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 
             ],
             testes:[
@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
             objetivo_principal: "Melhorar o condicionamento de corrida",
             treinos: [
                 {texto: "Treino  Corrida", url: "https://docs.google.com/spreadsheets/d/1OxH1e88PG-Ean5IjOngZgcgpDarP93fmNMMRAjthqvI/edit?usp=sharing"},
+                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 
                 
             ],
@@ -159,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "llneco": {
             nome: "Leonardo Lopes Neco",
             foto: "../galeria/leoneco.png",
-            grafico:"../galeria/testes.png",
+            grafico:"../galeria/leoneco1.png",
             nascimento: "1994-04-03",
             plano: "Consultoria de treino",
             frequencia: "3x semana",
@@ -173,7 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/llneco_b"},
             ],
             testes:[
-                {texto: "Histórico de treinos", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRL91_7QgDkLA_Iw4H6zD-A_qYF_Ln_QLPgXXFpUhi6nwLlzQ5qbp3eF-R18Ve9CHxXZzDDUZ76vS85/pubhtml?gid=209201510&single=true"}
+                {texto: "Histórico de treinos", url: "http://kaioguerrero.com/index"}
             ],
             whats:[
                 {texto: "Fale comigo", 
@@ -278,6 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 {texto: "Treino  A", url: "http://kaioguerrero.com/atletas/jessica_calixto_a"},
                 {texto: "Treino  B", url: "http://kaioguerrero.com/atletas/jessica_calixto_b"},
                 {texto: "Treino  C", url: "http://kaioguerrero.com/atletas/jessica_calixto_c"},
+                {texto: "Treino  Pré-corrida", url: "http://kaioguerrero.com/atletas/corrida"},
                 {texto: "Treino especial joelho", url: "http://kaioguerrero.com/atletas/jessica_calixto_e"},
                 {texto: "Treino faça todo dia", url: "http://kaioguerrero.com/atletas/jessica_calixto_f"},
                 { texto: "Treino Corrida", url: "https://docs.google.com/spreadsheets/d/1ox9xsHunk8OR5OHnWwRVvSITRzZZxZhRkwqHZTxFCPo/edit?usp=sharing" },
@@ -396,7 +398,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Simioni": {
             nome: "Marcelo  Simioni",
             foto: "../galeria/simioni.jpeg",
-            grafico:"../galeria/simionit.png",
+            grafico:"../galeria/testes.png",
             nascimento: "1990-07-28",
             plano: "Presencial 2x por semana/ 2x academia",
             frequencia: "4x semana",
@@ -508,6 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${atleta.testes.map(link => `<a href="${link.url}" class="acoes b">${link.texto}</a>`).join('')}
                 </div>
                 <img src="${atleta.grafico}" alt="Foto do atleta ${atleta.nome}" class="foto">
+         
                  <div class=" whatss">
                     ${atleta.whats.map(link => `<a href="${link.url}" class="botao">${link.texto}</a>`).join('')}
                 </div>
