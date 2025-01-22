@@ -25,6 +25,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 a {
     text-decoration: none; /* Remove o sublinhado dos links */
@@ -84,20 +85,20 @@ h1, h2 {
   .rodape{/*rodape*/
     display: flex;
     color: white; 
-    font-size: 10px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 10px;
     align-items: center;
     justify-content: center;  
     border-radius: 0px;
     min-width: 75px;
-    background-color: black;
+    background: linear-gradient(180deg, #141d32, #521118);
 }
 
 .tatoo3 { /*foto no rodape*/
     text-align: center;
-    background-color: black;
+    background: linear-gradient(180deg, #141d32, #521118);
     float: left;
-    width:30px;
+    width:50px;
     margin-left: 00px;
     margin-right: 30px;
     margin-bottom: auto;
@@ -109,6 +110,7 @@ header {
     padding: 10px 0px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%;
   }
   
 .section {
@@ -154,6 +156,9 @@ header {
     margin-bottom: 20px;
     font-size: 30px;
 }
+.h2_sem_espaco{
+    font-size: 30px;
+}
 /* Botões */
 .buttons {
     display: flex;
@@ -165,7 +170,7 @@ header {
 .btn-primary {
     padding: 10px 20px;
     background: #41EAD4;
-    width: 80%;
+    /* width: 80%; */
     color: #000000;
     border: none;
     border-radius: 5px;
@@ -195,7 +200,7 @@ header {
 .button1 {
     background-color: #521118; /* Cor de fundo inicial */
     border: 2px solid #ffffff; /* Borda branca */
-    margin: 10px 5px; /* Espaçamento ao redor do botão */
+    margin: 10px 50px; /* Espaçamento ao redor do botão */
     color: #ffffff; /* Cor do texto */
     
     padding: 12px 25px;
@@ -340,7 +345,7 @@ header {
 .highlight-number {
     font-size: 64px; /* Tamanho maior */
     font-weight: bold; /* Destacar texto */
-    background: linear-gradient(90deg, #521118, #521118, #ffffff); /* Degradê horizontal */
+    background: linear-gradient(90deg, #EF2D56, #EF2D56, #ffffff); /* Degradê horizontal */
     -webkit-background-clip: text; /* Aplica o degradê somente no texto */
     -webkit-text-fill-color: transparent; /* Faz o fundo do texto ficar transparente */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
@@ -400,7 +405,7 @@ header {
     }
 
     .buttons button, .btn-primary {
-        font-size: 14px;
+        /* font-size: 14px; */
         padding: 8px 16px;
     }
 }
@@ -419,8 +424,13 @@ header {
         width: 100px; /* Reduz o tamanho da imagem */
         height: 100px;
     }
-   
-  
+    
+  .box2{
+    margin-top: 0px;
+  }
+  .contato{
+    text-align: center;
+  }
 
 @media (max-width: 480px) {
     .header{
@@ -440,7 +450,7 @@ header {
     }
  
     .buttons button, .btn-primary {
-        font-size: 12px;
+        /* font-size: 12px; */
         padding: 6px 12px;
     }
 
