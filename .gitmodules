@@ -1,0 +1,3 @@
+[submodule "docs/treinamental"]
+	path = docs/treinamental
+	url = git@github.com:nathipg/apollo-livraria.git
